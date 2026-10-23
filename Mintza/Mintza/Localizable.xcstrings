@@ -1,0 +1,873 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "—" : {
+
+    },
+    "%@ : %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ : %2$@"
+          }
+        }
+      }
+    },
+    "%@ · %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "%@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        }
+      }
+    },
+    "%@, %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "%lld / %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld / %2$lld"
+          }
+        }
+      }
+    },
+    "%lld / %lld associations" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld / %2$lld associations"
+          }
+        }
+      }
+    },
+    "%lld / %lld leçon(s)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld / %2$lld leçon(s)"
+          }
+        }
+      }
+    },
+    "%lld exercices" : {
+
+    },
+    "%lld leçon(s) par jour" : {
+
+    },
+    "%lld lieu(x)" : {
+
+    },
+    "%lld." : {
+
+    },
+    "%lld/%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$lld"
+          }
+        }
+      }
+    },
+    "%lld/5" : {
+
+    },
+    "→ %@" : {
+
+    },
+    "1" : {
+
+    },
+    "5 questions · 3 min" : {
+
+    },
+    "8 caractères minimum. Les identifiants sont enregistrés dans le trousseau de cet appareil." : {
+
+    },
+    "À propos de Mintza" : {
+
+    },
+    "À retenir" : {
+
+    },
+    "À venir" : {
+
+    },
+    "A1 · Débutant" : {
+
+    },
+    "Accès réservé" : {
+
+    },
+    "Accueil" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "eu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etxea"
+          }
+        }
+      }
+    },
+    "Activité cette semaine" : {
+
+    },
+    "Administration" : {
+
+    },
+    "Adresse" : {
+
+    },
+    "Adresse e-mail" : {
+
+    },
+    "Aide à la connexion" : {
+
+    },
+    "Ajouter aux favoris" : {
+
+    },
+    "Annuler" : {
+
+    },
+    "Apprenant" : {
+
+    },
+    "Apprendre" : {
+      "localizations" : {
+        "eu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikasi"
+          }
+        }
+      }
+    },
+    "Apprendre aujourd’hui, profiter demain." : {
+
+    },
+    "Apprendre, pratiquer, fédérer." : {
+
+    },
+    "Aucun commerce" : {
+
+    },
+    "Aucun commerce publié pour le moment." : {
+
+    },
+    "Aucun favori" : {
+
+    },
+    "Aucune demande dans cette catégorie." : {
+
+    },
+    "Aucune leçon pour ce niveau" : {
+
+    },
+    "Augmenter l’objectif" : {
+
+    },
+    "Bienvenue sur Mintza," : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "eu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ongi Etorri Mintza-ra,"
+          }
+        }
+      }
+    },
+    "Bonjour" : {
+
+    },
+    "Bonjour ! Merci !" : {
+
+    },
+    "Bonne réponse !" : {
+
+    },
+    "Carte" : {
+      "localizations" : {
+        "eu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mapa"
+          }
+        }
+      }
+    },
+    "Catégorie" : {
+
+    },
+    "Ce commerce a été retiré de la carte." : {
+
+    },
+    "Ce compte est local au prototype. Il n’est pas synchronisé avec un serveur." : {
+
+    },
+    "Centrer sur ma position" : {
+
+    },
+    "Cette leçon se prépare" : {
+
+    },
+    "Chaque demande est examinée par l’administration avant publication sur la carte." : {
+
+    },
+    "Chaque échange commence par quelques mots." : {
+
+    },
+    "Chargement des exercices…" : {
+
+    },
+    "Chargement des leçons…" : {
+
+    },
+    "Choisir cet emplacement" : {
+
+    },
+    "Choisir sur la carte" : {
+
+    },
+    "Commencer" : {
+
+    },
+    "Commencer à apprendre" : {
+
+    },
+    "Commencer le quiz" : {
+
+    },
+    "Comment peut-on pratiquer l’euskara chez vous ?" : {
+
+    },
+    "Commerçant" : {
+
+    },
+    "Commerce" : {
+
+    },
+    "Commerce fictif de démonstration" : {
+
+    },
+    "Commerces publiés" : {
+
+    },
+    "Compte local" : {
+
+    },
+    "Comptes du prototype" : {
+
+    },
+    "Comptes, scores, favoris et demandes sont enregistrés sur cet appareil. Les mots de passe sont conservés dans le trousseau iOS. Aucun serveur de comptes n’est connecté." : {
+
+    },
+    "Confirmer le mot de passe" : {
+
+    },
+    "Connexion" : {
+      "localizations" : {
+        "eu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konektatu"
+          }
+        }
+      }
+    },
+    "Connexion au catalogue" : {
+
+    },
+    "Continuer ma leçon" : {
+
+    },
+    "Continuez comme ça !" : {
+
+    },
+    "Corriger et soumettre à nouveau" : {
+
+    },
+    "Créer mon compte" : {
+
+    },
+    "Créer un autre compte" : {
+
+    },
+    "Créez un profil commerçant pour proposer votre lieu et suivre sa validation." : {
+
+    },
+    "De nouvelles leçons seront ajoutées prochainement." : {
+
+    },
+    "Découvrez le basque et le français ensemble." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "eu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ezagutu euskara eta frantsesa batera"
+          }
+        }
+      }
+    },
+    "Demande envoyée" : {
+
+    },
+    "Demande indisponible ou accès non autorisé." : {
+
+    },
+    "Demande introuvable." : {
+
+    },
+    "Démo" : {
+
+    },
+    "Déplacez la carte pour placer votre commerce sous le repère." : {
+
+    },
+    "Diminuer l’objectif" : {
+
+    },
+    "Données et confidentialité" : {
+
+    },
+    "Effacer la recherche" : {
+
+    },
+    "Elle ne contient pas encore d’exercice." : {
+
+    },
+    "Emplacement" : {
+
+    },
+    "En attente" : {
+
+    },
+    "Enregistrer" : {
+
+    },
+    "Enregistrer les modifications" : {
+
+    },
+    "Enregistrer ma progression" : {
+
+    },
+    "Envoyer ma demande" : {
+
+    },
+    "Espace commerçant" : {
+
+    },
+    "Essayez une autre recherche ou désactivez un filtre." : {
+
+    },
+    "Euskara" : {
+
+    },
+    "Examiner la demande" : {
+
+    },
+    "Exercice %lld sur %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Exercice %1$lld sur %2$lld"
+          }
+        }
+      }
+    },
+    "Exercice suivant" : {
+
+    },
+    "Explorer la démonstration" : {
+
+    },
+    "Faites vivre l’euskara dans votre commerce." : {
+
+    },
+    "Fermer" : {
+
+    },
+    "Fiche indisponible" : {
+
+    },
+    "Fiche mise à jour" : {
+
+    },
+    "Français" : {
+
+    },
+    "Horaires" : {
+
+    },
+    "Ici, on parle euskara" : {
+
+    },
+    "Identifiants" : {
+
+    },
+    "Informations" : {
+
+    },
+    "Informations personnelles" : {
+
+    },
+    "Informations transmises" : {
+
+    },
+    "Itinéraire dans Plans" : {
+
+    },
+    "Je suis" : {
+
+    },
+    "Kafe bat, mesedez" : {
+
+    },
+    "Kaixo" : {
+
+    },
+    "Kaixo !" : {
+
+    },
+    "Kaixo, %@ !" : {
+
+    },
+    "Kaixo! Eskerrik asko!" : {
+
+    },
+    "L’accès à votre position est facultatif et demandé uniquement lorsque vous touchez le bouton de localisation sur la carte." : {
+
+    },
+    "La fiche publiée sera mise à jour immédiatement." : {
+
+    },
+    "La traduction basque de l’interface est partielle dans ce prototype. Les leçons proposent le vocabulaire dans les deux langues." : {
+
+    },
+    "Langue" : {
+
+    },
+    "Langue de l’interface" : {
+
+    },
+    "Le mot du jour" : {
+
+    },
+    "Le prototype ne dispose pas de serveur d’authentification. La récupération par e-mail n’est donc pas encore disponible." : {
+
+    },
+    "Les leçons du niveau %@ seront ajoutées après le prototype A1." : {
+
+    },
+    "Les Mintzakide" : {
+
+    },
+    "Les modifications sont visibles sur la carte." : {
+
+    },
+    "Les mots à retenir" : {
+
+    },
+    "Les quatre commerces initiaux sont fictifs et servent à la démonstration. Le fond de carte et les itinéraires utilisent les services Apple et peuvent nécessiter Internet." : {
+
+    },
+    "Lieu fictif · Illustration d’ambiance générée." : {
+
+    },
+    "Lieux « Démo » fictifs. Illustrations d’ambiance." : {
+
+    },
+    "Lun–sam · 9 h–18 h" : {
+
+    },
+    "Ma progression" : {
+
+    },
+    "Meilleur résultat enregistré sur cet iPhone." : {
+
+    },
+    "Meilleur score conservé · %lld XP au total" : {
+
+    },
+    "Mes commerces publiés" : {
+
+    },
+    "Mes favoris" : {
+
+    },
+    "Mes meilleurs scores" : {
+
+    },
+    "Mes réussites" : {
+
+    },
+    "Message au commerçant" : {
+
+    },
+    "Mintza" : {
+
+    },
+    "MINTZA" : {
+      "localizations" : {
+        "eu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MINTZA"
+          }
+        }
+      }
+    },
+    "Mise à jour de fiche" : {
+
+    },
+    "Mode invité : ce résultat n’est pas enregistré." : {
+
+    },
+    "Modifier l’emplacement" : {
+
+    },
+    "Modifier mon profil" : {
+
+    },
+    "Mon commerce" : {
+
+    },
+    "Mon espace commerçant" : {
+
+    },
+    "Mon objectif" : {
+
+    },
+    "Mon rythme" : {
+
+    },
+    "Mot de passe" : {
+
+    },
+    "Mot de passe oublié ?" : {
+      "localizations" : {
+        "eu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasahitza ahaztua ?"
+          }
+        }
+      }
+    },
+    "Nom" : {
+
+    },
+    "Nom du commerce" : {
+
+    },
+    "Nouveau référencement" : {
+
+    },
+    "Numéro de téléphone" : {
+
+    },
+    "Numéro et rue" : {
+
+    },
+    "Oso ongi !" : {
+
+    },
+    "Ouvrez le profil Administrateur depuis les accès de démonstration." : {
+
+    },
+    "Ouvrez une fiche depuis la carte et touchez le cœur pour la retrouver ici." : {
+
+    },
+    "Paramètres" : {
+
+    },
+    "Position : %@, %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Position : %1$@, %2$@"
+          }
+        }
+      }
+    },
+    "Position choisie : %@, %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Position choisie : %1$@, %2$@"
+          }
+        }
+      }
+    },
+    "Prénom" : {
+
+    },
+    "Profil" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "eu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profila"
+          }
+        }
+      }
+    },
+    "Profil de démonstration" : {
+
+    },
+    "Prototype local : comptes et progression restent sur cet appareil." : {
+
+    },
+    "Publication après validation. L’adresse ne déplace pas automatiquement le repère sur la carte." : {
+
+    },
+    "Quelques mots aujourd’hui.\nUne conversation demain." : {
+
+    },
+    "Question %lld sur %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Question %1$lld sur %2$lld"
+          }
+        }
+      }
+    },
+    "Question suivante" : {
+
+    },
+    "Quitter" : {
+
+    },
+    "Quitter cette tentative ? Les réponses en cours ne seront pas enregistrées." : {
+
+    },
+    "Quitter le quiz" : {
+
+    },
+    "Quitter le quiz ? Les réponses de cette tentative ne seront pas enregistrées." : {
+
+    },
+    "Quitter les exercices" : {
+
+    },
+    "Recommencer" : {
+
+    },
+    "Recommencer les associations" : {
+
+    },
+    "Réessayer" : {
+
+    },
+    "Réessayer la sauvegarde" : {
+
+    },
+    "Référencer mon commerce" : {
+
+    },
+    "Référencer un commerce" : {
+
+    },
+    "Refusées" : {
+
+    },
+    "Refuser" : {
+
+    },
+    "Rejoindre les Mintzakide" : {
+
+    },
+    "Réponse de l’administration" : {
+
+    },
+    "Reprendre" : {
+
+    },
+    "Retirer %@" : {
+
+    },
+    "Retirer %@ de la carte ?" : {
+
+    },
+    "Retirer de la carte" : {
+
+    },
+    "Retirer des favoris" : {
+
+    },
+    "Revenir au Pays Basque" : {
+
+    },
+    "Réviser avant ma visite" : {
+
+    },
+    "S’inscrire" : {
+      "localizations" : {
+        "eu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inskribatu"
+          }
+        }
+      }
+    },
+    "Se connecter" : {
+
+    },
+    "Se connecter ou essayer la démo" : {
+
+    },
+    "Se connecter pour garder sa progression" : {
+
+    },
+    "Se déconnecter" : {
+
+    },
+    "Se déconnecter ?" : {
+
+    },
+    "Si vous avez oublié votre mot de passe, vous pouvez explorer les profils de démonstration ou créer un autre compte local. Votre ancien compte et sa progression restent conservés." : {
+
+    },
+    "Statut" : {
+
+    },
+    "Stockage local" : {
+
+    },
+    "Suivi de demande" : {
+
+    },
+    "Suivi de mes demandes" : {
+
+    },
+    "Téléphone" : {
+
+    },
+    "Téléphone (facultatif)" : {
+
+    },
+    "Terminé" : {
+
+    },
+    "Terminé · %lld/%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Terminé · %1$lld/%2$lld"
+          }
+        }
+      }
+    },
+    "Terminé · %lld/5" : {
+
+    },
+    "Terminer la leçon" : {
+
+    },
+    "Touchez les groupes dans l’ordre. Touchez un groupe choisi pour le retirer." : {
+
+    },
+    "Touchez un élément à gauche, puis son correspondant à droite." : {
+
+    },
+    "Tout effacer" : {
+
+    },
+    "Un café, s’il vous plaît" : {
+
+    },
+    "Un lieu, une ville…" : {
+
+    },
+    "Un mot utile" : {
+
+    },
+    "Un motif est requis en cas de refus." : {
+
+    },
+    "Un projet étudiant ISA NUM pour rapprocher l’apprentissage de l’euskara des échanges du quotidien dans le Pays Basque." : {
+
+    },
+    "Validées" : {
+
+    },
+    "Valider" : {
+
+    },
+    "Vérifier" : {
+
+    },
+    "Version" : {
+
+    },
+    "Ville" : {
+
+    },
+    "Voir mon résultat" : {
+
+    },
+    "Vos demandes et leurs réponses apparaîtront ici." : {
+
+    },
+    "Votre demande est en attente de validation. Une fiche déjà publiée reste visible avec ses anciennes informations pendant l’examen." : {
+
+    },
+    "Votre leçon" : {
+
+    },
+    "Votre phrase apparaîtra ici." : {
+
+    },
+    "Votre profil actuel est apprenant. Déconnectez-vous dans Profil pour utiliser ou créer un compte commerçant." : {
+
+    },
+    "Vous pouvez suivre son état dans votre espace commerçant." : {
+
+    },
+    "vous@exemple.fr" : {
+
+    }
+  },
+  "version" : "1.2"
+}
