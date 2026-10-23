@@ -60,3 +60,11 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Fichiers locaux et secrets du backend
+.DS_Store
+DerivedData/
+.env
+.env.*
+!.env.example
+/serveur/configuration/base_de_donnees.php

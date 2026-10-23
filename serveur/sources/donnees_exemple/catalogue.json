@@ -1,0 +1,355 @@
+{
+  "lecons": [
+    {
+      "idLecon": 1,
+      "titreLecon": "Découvrir les exercices A1",
+      "niveauLecon": "A1",
+      "descriptionLecon": "Quatre exercices de démonstration.",
+      "ordreLecon": 1
+    },
+    {
+      "idLecon": 2,
+      "titreLecon": "Découvrir les exercices A2",
+      "niveauLecon": "A2",
+      "descriptionLecon": "Quatre exercices de démonstration.",
+      "ordreLecon": 2
+    },
+    {
+      "idLecon": 3,
+      "titreLecon": "Découvrir les exercices B1",
+      "niveauLecon": "B1",
+      "descriptionLecon": "Quatre exercices de démonstration.",
+      "ordreLecon": 3
+    },
+    {
+      "idLecon": 4,
+      "titreLecon": "Découvrir les exercices B2",
+      "niveauLecon": "B2",
+      "descriptionLecon": "Quatre exercices de démonstration.",
+      "ordreLecon": 4
+    },
+    {
+      "idLecon": 5,
+      "titreLecon": "Découvrir les exercices C1",
+      "niveauLecon": "C1",
+      "descriptionLecon": "Quatre exercices de démonstration.",
+      "ordreLecon": 5
+    },
+    {
+      "idLecon": 6,
+      "titreLecon": "Découvrir les exercices C2",
+      "niveauLecon": "C2",
+      "descriptionLecon": "Quatre exercices de démonstration.",
+      "ordreLecon": 6
+    }
+  ],
+  "exercices": [
+    {
+      "idExo": 1001,
+      "idLecon": 1,
+      "typeExo": "qcm",
+      "libelleExo": "Que signifie « Eskerrik asko » ?",
+      "contenuExo": "{\"choix\":[{\"id\":\"a\",\"texte\":\"Bonjour\"},{\"id\":\"b\",\"texte\":\"Merci\"},{\"id\":\"c\",\"texte\":\"Au revoir\"}]}",
+      "reponseExo": "{\"choixId\":\"b\"}",
+      "explicationExo": "« Eskerrik asko » permet de remercier.",
+      "ordreExo": 1
+    },
+    {
+      "idExo": 1002,
+      "idLecon": 1,
+      "typeExo": "vrai_faux",
+      "libelleExo": "Cette affirmation est-elle vraie ?",
+      "contenuExo": "{\"affirmation\":\"« Agur » signifie « Bonjour ».\"}",
+      "reponseExo": "{\"valeur\":false}",
+      "explicationExo": "« Agur » signifie « Au revoir ». Pour saluer, on peut dire « Kaixo ».",
+      "ordreExo": 2
+    },
+    {
+      "idExo": 1003,
+      "idLecon": 1,
+      "typeExo": "phrase_trou",
+      "libelleExo": "Complète la présentation.",
+      "contenuExo": "{\"phrase\":\"Ni Ane ___.\",\"choix\":[{\"id\":\"a\",\"texte\":\"zara\"},{\"id\":\"b\",\"texte\":\"da\"},{\"id\":\"c\",\"texte\":\"naiz\"}]}",
+      "reponseExo": "{\"choixId\":\"c\"}",
+      "explicationExo": "« Ni Ane naiz » signifie « Je suis Ane ». « Naiz » correspond ici à la première personne.",
+      "ordreExo": 3
+    },
+    {
+      "idExo": 1004,
+      "idLecon": 1,
+      "typeExo": "dialogue",
+      "libelleExo": "Choisis la réponse adaptée.",
+      "contenuExo": "{\"situation\":\"Vous rencontrez une amie.\",\"replique\":\"Kaixo! Zer moduz?\",\"choix\":[{\"id\":\"a\",\"texte\":\"Ongi, eskerrik asko!\"},{\"id\":\"b\",\"texte\":\"Kafe bat, mesedez.\"},{\"id\":\"c\",\"texte\":\"Kontua, mesedez.\"}]}",
+      "reponseExo": "{\"choixId\":\"a\"}",
+      "explicationExo": "« Zer moduz? » demande comment ça va. « Ongi, eskerrik asko! » signifie « Bien, merci ! ».",
+      "ordreExo": 4
+    },
+    {
+      "idExo": 1005,
+      "idLecon": 2,
+      "typeExo": "association",
+      "libelleExo": "Associe chaque mot à sa traduction.",
+      "contenuExo": "{\"gauche\":[{\"id\":\"g1\",\"texte\":\"ura\"},{\"id\":\"g2\",\"texte\":\"esnea\"},{\"id\":\"g3\",\"texte\":\"ogia\"}],\"droite\":[{\"id\":\"d1\",\"texte\":\"le pain\"},{\"id\":\"d2\",\"texte\":\"l’eau\"},{\"id\":\"d3\",\"texte\":\"le lait\"}]}",
+      "reponseExo": "{\"paires\":[{\"gaucheId\":\"g1\",\"droiteId\":\"d2\"},{\"gaucheId\":\"g2\",\"droiteId\":\"d3\"},{\"gaucheId\":\"g3\",\"droiteId\":\"d1\"}]}",
+      "explicationExo": "« Ura » : l’eau ; « esnea » : le lait ; « ogia » : le pain.",
+      "ordreExo": 1
+    },
+    {
+      "idExo": 1006,
+      "idLecon": 2,
+      "typeExo": "ordre_mots",
+      "libelleExo": "Reconstitue : « Je veux un café ».",
+      "contenuExo": "{\"mots\":[{\"id\":\"m1\",\"texte\":\"dut\"},{\"id\":\"m2\",\"texte\":\"Kafe\"},{\"id\":\"m3\",\"texte\":\"nahi\"},{\"id\":\"m4\",\"texte\":\"bat\"}]}",
+      "reponseExo": "{\"ordre\":[\"m2\",\"m4\",\"m3\",\"m1\"]}",
+      "explicationExo": "L’ordre attendu est « Kafe bat nahi dut ».",
+      "ordreExo": 2
+    },
+    {
+      "idExo": 1007,
+      "idLecon": 2,
+      "typeExo": "comprehension_ecrite",
+      "libelleExo": "À quelle heure le magasin ferme-t-il le samedi ?",
+      "contenuExo": "{\"texte\":\"Denda astelehenetik larunbatera dago zabalik. Goizeko bederatzietan irekitzen dugu. Astelehenetik ostiralera zazpietan ixten dugu; larunbatean, berriz, ordu bietan.\",\"choix\":[{\"id\":\"a\",\"texte\":\"À 9 heures\"},{\"id\":\"b\",\"texte\":\"À 19 heures\"},{\"id\":\"c\",\"texte\":\"À 14 heures\"}]}",
+      "reponseExo": "{\"choixId\":\"c\"}",
+      "explicationExo": "Le samedi, le magasin ferme « ordu bietan », à deux heures de l’après-midi dans ce contexte.",
+      "ordreExo": 3
+    },
+    {
+      "idExo": 1008,
+      "idLecon": 2,
+      "typeExo": "qcm",
+      "libelleExo": "Comment demander où se trouve la gare ?",
+      "contenuExo": "{\"choix\":[{\"id\":\"a\",\"texte\":\"Zenbat da?\"},{\"id\":\"b\",\"texte\":\"Non dago geltokia?\"},{\"id\":\"c\",\"texte\":\"Nola duzu izena?\"}]}",
+      "reponseExo": "{\"choixId\":\"b\"}",
+      "explicationExo": "« Non dago geltokia? » signifie « Où se trouve la gare ? ».",
+      "ordreExo": 4
+    },
+    {
+      "idExo": 1009,
+      "idLecon": 3,
+      "typeExo": "comprehension_ecrite",
+      "libelleExo": "Zergatik aldatuko dute bilera egunez?",
+      "contenuExo": "{\"texte\":\"Hasieran, ostiralean elkartzeko asmoa genuen. Baina Anek egun horretan lan egin behar du, eta Iker ezin da etorri. Horregatik, larunbat goizera pasatu dugu bilera. Lekua ez dugu aldatuko: betiko kafetegian elkartuko gara.\",\"choix\":[{\"id\":\"a\",\"texte\":\"Kafetegia ostiralean itxita dagoelako.\"},{\"id\":\"b\",\"texte\":\"Bi lagun ezin direlako ostiralean etorri.\"},{\"id\":\"c\",\"texte\":\"Beste kafetegi batera joan nahi dutelako.\"}]}",
+      "reponseExo": "{\"choixId\":\"b\"}",
+      "explicationExo": "Ane travaille le vendredi et Iker ne peut pas venir. Le lieu reste inchangé.",
+      "ordreExo": 1
+    },
+    {
+      "idExo": 1010,
+      "idLecon": 3,
+      "typeExo": "ordre_mots",
+      "libelleExo": "Osatu esaldia, ordena honetan: baldintza lehenik, ondorioa gero.",
+      "contenuExo": "{\"mots\":[{\"id\":\"m1\",\"texte\":\"geratuko gara.\"},{\"id\":\"m2\",\"texte\":\"Euria egiten badu,\"},{\"id\":\"m3\",\"texte\":\"etxean\"}]}",
+      "reponseExo": "{\"ordre\":[\"m2\",\"m3\",\"m1\"]}",
+      "explicationExo": "« Euria egiten badu, etxean geratuko gara » : s’il pleut, nous resterons à la maison.",
+      "ordreExo": 2
+    },
+    {
+      "idExo": 1011,
+      "idLecon": 3,
+      "typeExo": "dialogue",
+      "libelleExo": "Nola eskatuko zenuke azalpena adeitasunez?",
+      "contenuExo": "{\"situation\":\"Dendariak azkar hitz egin du, eta ez duzu dena ulertu.\",\"replique\":\"Produktu hau bestea baino merkeagoa da.\",\"choix\":[{\"id\":\"a\",\"texte\":\"Ez dut ondo ulertu. Berriro esan dezakezu, mesedez?\"},{\"id\":\"b\",\"texte\":\"Bai, dena primeran ulertu dut.\"},{\"id\":\"c\",\"texte\":\"Agur, bihar arte!\"}]}",
+      "reponseExo": "{\"choixId\":\"a\"}",
+      "explicationExo": "Cette réponse exprime l’incompréhension et demande poliment de répéter.",
+      "ordreExo": 3
+    },
+    {
+      "idExo": 1012,
+      "idLecon": 3,
+      "typeExo": "phrase_trou",
+      "libelleExo": "Osatu esaldia: adierazi joateko arrazoia.",
+      "contenuExo": "{\"phrase\":\"Okindegira joan naiz, ogia behar ___.\",\"choix\":[{\"id\":\"a\",\"texte\":\"dudan arren\"},{\"id\":\"b\",\"texte\":\"badut\"},{\"id\":\"c\",\"texte\":\"dudalako\"}]}",
+      "reponseExo": "{\"choixId\":\"c\"}",
+      "explicationExo": "« Dudalako » introduit ici la cause : je suis allé à la boulangerie parce que j’ai besoin de pain.",
+      "ordreExo": 4
+    },
+    {
+      "idExo": 1013,
+      "idLecon": 4,
+      "typeExo": "comprehension_ecrite",
+      "libelleExo": "Zein da egilearen proposamen nagusia?",
+      "contenuExo": "{\"texte\":\"Denda txikiei laguntzeko, ez da nahikoa urtean behin kanpaina handi bat egitea. Eguneroko erabakiek ere badute eragina: non erosten dugun, nori eskatzen diogun aholkua eta zer zerbitzu baloratzen dugun. Horrek ez du esan nahi dena auzoan erosi behar dugunik, baizik eta prezioaz gain beste irizpide batzuk ere kontuan hartzea komeni dela.\",\"choix\":[{\"id\":\"a\",\"texte\":\"Erosketa guztiak auzoan egitea derrigorrezkoa dela.\"},{\"id\":\"b\",\"texte\":\"Urteko kanpainek bakarrik laguntzen dietela dendei.\"},{\"id\":\"c\",\"texte\":\"Erosterakoan prezioaz bestelako irizpideak ere erabiltzea.\"}]}",
+      "reponseExo": "{\"choixId\":\"c\"}",
+      "explicationExo": "L’auteur défend des critères d’achat plus larges que le prix, sans imposer de tout acheter localement.",
+      "ordreExo": 1
+    },
+    {
+      "idExo": 1014,
+      "idLecon": 4,
+      "typeExo": "vrai_faux",
+      "libelleExo": "Baieztapena zuzena al da?",
+      "contenuExo": "{\"affirmation\":\"« Euria egin arren, kalera atera gara » esaldiak adierazten du euria egin duela, baina horrek ez duela irteera eragotzi.\"}",
+      "reponseExo": "{\"valeur\":true}",
+      "explicationExo": "« Arren » exprime la concession : malgré la pluie, la sortie a eu lieu.",
+      "ordreExo": 2
+    },
+    {
+      "idExo": 1015,
+      "idLecon": 4,
+      "typeExo": "association",
+      "libelleExo": "Lotu lokailu bakoitza bere funtzioarekin.",
+      "contenuExo": "{\"gauche\":[{\"id\":\"g1\",\"texte\":\"hala ere\"},{\"id\":\"g2\",\"texte\":\"beraz\"},{\"id\":\"g3\",\"texte\":\"gainera\"}],\"droite\":[{\"id\":\"d1\",\"texte\":\"ondorioa adieraztea\"},{\"id\":\"d2\",\"texte\":\"informazioa gehitzea\"},{\"id\":\"d3\",\"texte\":\"aurrekoari kontrastea egitea\"}]}",
+      "reponseExo": "{\"paires\":[{\"gaucheId\":\"g1\",\"droiteId\":\"d3\"},{\"gaucheId\":\"g2\",\"droiteId\":\"d1\"},{\"gaucheId\":\"g3\",\"droiteId\":\"d2\"}]}",
+      "explicationExo": "« Hala ere » marque un contraste ; « beraz », une conséquence ; « gainera », un ajout.",
+      "ordreExo": 3
+    },
+    {
+      "idExo": 1016,
+      "idLecon": 4,
+      "typeExo": "phrase_trou",
+      "libelleExo": "Osatu baldintza hipotetikoa.",
+      "contenuExo": "{\"phrase\":\"Denbora gehiago izango banu, euskara maizago praktikatuko ___.\",\"choix\":[{\"id\":\"a\",\"texte\":\"nuke\"},{\"id\":\"b\",\"texte\":\"dut\"},{\"id\":\"c\",\"texte\":\"nuen\"}]}",
+      "reponseExo": "{\"choixId\":\"a\"}",
+      "explicationExo": "« Izango banu … praktikatuko nuke » exprime une hypothèse et sa conséquence : si j’avais plus de temps, je pratiquerais davantage.",
+      "ordreExo": 4
+    },
+    {
+      "idExo": 1017,
+      "idLecon": 5,
+      "typeExo": "comprehension_ecrite",
+      "libelleExo": "Zer bereizketa egiten du testuak?",
+      "contenuExo": "{\"texte\":\"Hizkuntza bat erabiltzeko aukera formalki aitortzeak ez du berez bermatzen aukera hori benetan baliatu ahal izatea. Zerbitzua hizkuntza horretan eskatzeko eskubidea izanda ere, erabiltzaileak eskaera deserosoa dela sentitzen badu, beste hizkuntzara jo dezake. Hortaz, arauak ez ezik, eguneroko harrerak eta ohiturek ere baldintzatzen dute hautua.\",\"choix\":[{\"id\":\"a\",\"texte\":\"Eskubidea aitortzea eta hura erabiltzeko baldintza egokiak izatea bereizten ditu.\"},{\"id\":\"b\",\"texte\":\"Hizkuntza-hautua arauek soilik erabakitzen dutela dio.\"},{\"id\":\"c\",\"texte\":\"Erabiltzaileek hizkuntza-eskubideei uko egin behar dietela proposatzen du.\"}]}",
+      "reponseExo": "{\"choixId\":\"a\"}",
+      "explicationExo": "Le texte distingue la reconnaissance formelle d’un droit et les conditions sociales permettant son exercice.",
+      "ordreExo": 1
+    },
+    {
+      "idExo": 1018,
+      "idLecon": 5,
+      "typeExo": "ordre_mots",
+      "libelleExo": "Antolatu argudioa: emakida lehenik, ondorio nagusia gero.",
+      "contenuExo": "{\"mots\":[{\"id\":\"m1\",\"texte\":\"horrek ez du esan nahi\"},{\"id\":\"m2\",\"texte\":\"neurri guztiak egokiak direnik.\"},{\"id\":\"m3\",\"texte\":\"Helburua onargarria izan arren,\"}]}",
+      "reponseExo": "{\"ordre\":[\"m3\",\"m1\",\"m2\"]}",
+      "explicationExo": "L’argument concède que l’objectif est acceptable, puis refuse d’en déduire que toutes les mesures le sont.",
+      "ordreExo": 2
+    },
+    {
+      "idExo": 1019,
+      "idLecon": 5,
+      "typeExo": "qcm",
+      "libelleExo": "Zein esaldik gordetzen du jatorrizkoaren zuhurtzia: « Baliteke neurriak epe luzera onurak ekartzea »?",
+      "contenuExo": "{\"choix\":[{\"id\":\"a\",\"texte\":\"Neurriak, zalantzarik gabe, onurak ekarriko ditu.\"},{\"id\":\"b\",\"texte\":\"Neurriak onurak ekar litzake epe luzera.\"},{\"id\":\"c\",\"texte\":\"Frogatuta dago neurriak dagoeneko onurak ekarri dituela.\"}]}",
+      "reponseExo": "{\"choixId\":\"b\"}",
+      "explicationExo": "La possibilité est conservée avec « ekar litzake ». Les autres propositions transforment l’hypothèse en certitude ou en fait établi.",
+      "ordreExo": 3
+    },
+    {
+      "idExo": 1020,
+      "idLecon": 5,
+      "typeExo": "dialogue",
+      "libelleExo": "Aukeratu desadostasun arrazoitua eta negoziaziorako irekia.",
+      "contenuExo": "{\"situation\":\"Bilera batean, proposamen baten kostua eta eragina eztabaidatzen ari zarete.\",\"replique\":\"Merkeena denez, aukera hori hartu beharko genuke.\",\"choix\":[{\"id\":\"a\",\"texte\":\"Merkea bada, ez dago beste ezer aztertu beharrik.\"},{\"id\":\"b\",\"texte\":\"Zure proposamenak ez du inolako zentzurik.\"},{\"id\":\"c\",\"texte\":\"Kostua garrantzitsua dela onartzen dut; hala ere, epe luzeko eragina ere aztertzea proposatuko nuke.\"}]}",
+      "reponseExo": "{\"choixId\":\"c\"}",
+      "explicationExo": "La réponse reconnaît un argument valable, ajoute une réserve et propose une autre piste d’analyse sans fermer la discussion.",
+      "ordreExo": 4
+    },
+    {
+      "idExo": 1021,
+      "idLecon": 6,
+      "typeExo": "comprehension_ecrite",
+      "libelleExo": "Zein da azken esaldiaren asmo nagusia?",
+      "contenuExo": "{\"texte\":\"Parte-hartze prozesua eredugarria izan omen da: herritarrek hitz egiteko hiru minutu izan dituzte, eta erabakiak jasotzen zituen txostena aurreko astean itxi zen. Antolatzaileek, pozik, entzute ariketa bikaina egin dutela adierazi dute. Entzutea eta entzundakoak zerbait aldatzeko aukera izatea, nonbait, gauza bera ez dira.\",\"choix\":[{\"id\":\"a\",\"texte\":\"Hitz egiteko denbora zehaztasunez neurtu dela goraipatzea.\"},{\"id\":\"b\",\"texte\":\"Benetako eraginik gabeko parte-hartzea ironiaz auzitan jartzea.\"},{\"id\":\"c\",\"texte\":\"Herritarren iritziak txostenean osorik jaso direla baieztatzea.\"}]}",
+      "reponseExo": "{\"choixId\":\"b\"}",
+      "explicationExo": "L’ironie oppose l’écoute affichée à l’absence d’influence réelle : le rapport était clos avant la prise de parole.",
+      "ordreExo": 1
+    },
+    {
+      "idExo": 1022,
+      "idLecon": 6,
+      "typeExo": "qcm",
+      "libelleExo": "Zein berridazketak gordetzen ditu bi ñabardurak: « Ez nuke esango proposamena baztertu behar denik; bai, ordea, oraingo baldintzetan onartzea arduragabea litzatekeela »?",
+      "contenuExo": "{\"choix\":[{\"id\":\"a\",\"texte\":\"Proposamena behin betiko baztertzekoa da, edozein baldintzatan.\"},{\"id\":\"b\",\"texte\":\"Proposamena berehala onartu behar da, akats txiki batzuk baditu ere.\"},{\"id\":\"c\",\"texte\":\"Proposamena ez da nahitaez baztertzekoa, baina egungo baldintzetan onartzea ez litzateke arduratsua.\"}]}",
+      "reponseExo": "{\"choixId\":\"c\"}",
+      "explicationExo": "La reformulation conserve à la fois l’absence de rejet définitif et le refus d’une acceptation dans les conditions actuelles.",
+      "ordreExo": 2
+    },
+    {
+      "idExo": 1023,
+      "idLecon": 6,
+      "typeExo": "phrase_trou",
+      "libelleExo": "Osatu testua: aurrekoa onartu, baina hortik atera litekeen ondorioa mugatu.",
+      "contenuExo": "{\"phrase\":\"Txostenaren datuak zuzenak dira. ___, datu horietatik ezin da ondorioztatu proposatutako neurria aukera bakarra denik.\",\"choix\":[{\"id\":\"a\",\"texte\":\"Hori horrela izanik ere\"},{\"id\":\"b\",\"texte\":\"Hori frogatzeko\"},{\"id\":\"c\",\"texte\":\"Beste adibide bat ematearren\"}]}",
+      "reponseExo": "{\"choixId\":\"a\"}",
+      "explicationExo": "Cette formule admet la validité des données tout en contestant une conclusion possible. Les autres choix annoncent une preuve ou un exemple.",
+      "ordreExo": 3
+    },
+    {
+      "idExo": 1024,
+      "idLecon": 6,
+      "typeExo": "association",
+      "libelleExo": "Lotu enuntziatu bakoitza bere eginkizun argumentatibo nagusiarekin.",
+      "contenuExo": "{\"gauche\":[{\"id\":\"g1\",\"texte\":\"Ez dut ukatzen neurriak balio duenik; haren irismena zehaztu nahi dut.\"},{\"id\":\"g2\",\"texte\":\"Zure arrazoibideari jarraituz gero, salbuespen bakar batek arau osoa baliogabetuko luke.\"},{\"id\":\"g3\",\"texte\":\"Ez dago adostasunik neurriaren inguruan; bai, ordea, arazoari heldu behar zaiola esatean.\"}],\"droite\":[{\"id\":\"d1\",\"texte\":\"Desadostasunaren barruan adostasun-puntu bat identifikatzea.\"},{\"id\":\"d2\",\"texte\":\"Baieztapen bati ñabardura egitea, erabat ukatu gabe.\"},{\"id\":\"d3\",\"texte\":\"Bestearen arrazoibidearen ondorio zalantzagarri bat agerian uztea.\"}]}",
+      "reponseExo": "{\"paires\":[{\"gaucheId\":\"g1\",\"droiteId\":\"d2\"},{\"gaucheId\":\"g2\",\"droiteId\":\"d3\"},{\"gaucheId\":\"g3\",\"droiteId\":\"d1\"}]}",
+      "explicationExo": "Les trois énoncés servent respectivement à nuancer une affirmation, à mettre à l’épreuve les conséquences d’un raisonnement et à dégager un terrain d’entente.",
+      "ordreExo": 4
+    }
+  ],
+  "commerces": [
+    {
+      "idCommerce": 1,
+      "nomCommerce": "Kafe Mintza",
+      "categorie": "Café",
+      "adresse": "Repère fictif — centre-ville",
+      "ville": "Bayonne",
+      "latitude": 43.4905,
+      "longitude": -1.475,
+      "descriptionCommerce": "Commerce fictif : commander un café en basque.",
+      "horaires": "Lun–sam : 9 h–18 h",
+      "imageUrl": null,
+      "statut": "valide"
+    },
+    {
+      "idCommerce": 2,
+      "nomCommerce": "Itsasoa",
+      "categorie": "Restaurant",
+      "adresse": "Repère fictif — quartier des Halles",
+      "ville": "Biarritz",
+      "latitude": 43.4804,
+      "longitude": -1.5612,
+      "descriptionCommerce": "Commerce fictif : commander un repas en basque.",
+      "horaires": "Mar–sam : 12 h–14 h et 19 h–22 h",
+      "imageUrl": null,
+      "statut": "valide"
+    },
+    {
+      "idCommerce": 3,
+      "nomCommerce": "Bertako Denda",
+      "categorie": "Boutique",
+      "adresse": "Repère fictif — centre-ville",
+      "ville": "Anglet",
+      "latitude": 43.4821,
+      "longitude": -1.5183,
+      "descriptionCommerce": "Commerce fictif : poser une question sur un produit.",
+      "horaires": "Lun–sam : 10 h–19 h",
+      "imageUrl": null,
+      "statut": "valide"
+    },
+    {
+      "idCommerce": 4,
+      "nomCommerce": "Liburu Txokoa",
+      "categorie": "Culture",
+      "adresse": "Repère fictif — Petit Bayonne",
+      "ville": "Bayonne",
+      "latitude": 43.4894,
+      "longitude": -1.4722,
+      "descriptionCommerce": "Commerce fictif : découvrir des livres en basque.",
+      "horaires": "Mar–sam : 10 h–18 h",
+      "imageUrl": null,
+      "statut": "valide"
+    },
+    {
+      "idCommerce": 5,
+      "nomCommerce": "Auzo Kafe",
+      "categorie": "Café",
+      "adresse": "Repère fictif",
+      "ville": "Bayonne",
+      "latitude": 43.49,
+      "longitude": -1.47,
+      "descriptionCommerce": "Commerce fictif en attente de validation.",
+      "horaires": "Lun–ven : 9 h–17 h",
+      "imageUrl": null,
+      "statut": "en_attente"
+    }
+  ]
+}

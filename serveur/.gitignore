@@ -1,0 +1,4 @@
+.DS_Store
+.env
+configuration/base_de_donnees.locale.php
+*.log
