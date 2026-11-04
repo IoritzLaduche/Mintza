@@ -5627,6 +5627,23 @@
           }
         }
       }
+    },
+    "8 caractères minimum.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "8 caractères minimum."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gutxienez 8 karaktere."
+          }
+        }
+      }
     }
   },
   "version": "1.2"
