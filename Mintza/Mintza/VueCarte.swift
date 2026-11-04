@@ -44,6 +44,7 @@ final class LocalisationMintza: NSObject, ObservableObject, CLLocationManagerDel
 }
 
 struct VueCarte: View {
+    @AppStorage("langueAppli") private var langueInterface = "fr"
     var racine = false
     @EnvironmentObject private var magasin: MagasinMintza
     @StateObject private var localisation = LocalisationMintza()
@@ -134,7 +135,7 @@ struct VueCarte: View {
     }
     private func filtre(_ titre: String, actif: Bool, action: @escaping () -> Void) -> some View {
         Button(action: action) {
-            Text(titre).font(.caption.weight(.medium)).padding(.horizontal, 17).frame(minHeight: 44)
+            Text(LocalizedStringKey(titre)).font(.caption.weight(.medium)).padding(.horizontal, 17).frame(minHeight: 44)
                 .background(actif ? Color.vertMintza : Color.surfaceMintza, in: Capsule())
                 .foregroundStyle(actif ? .white : Color.encreMintza)
                 .overlay(Capsule().stroke(Color.traitMintza, lineWidth: actif ? 0 : 1))
@@ -143,6 +144,7 @@ struct VueCarte: View {
 }
 
 struct LigneCommerce: View {
+    @AppStorage("langueAppli") private var langueInterface = "fr"
     let commerce: CommerceMintza
     var body: some View {
         HStack(spacing: 12) {
@@ -154,7 +156,7 @@ struct LigneCommerce: View {
             }
             VStack(alignment: .leading, spacing: 5) {
                 Text(commerce.nom).font(.headline).foregroundStyle(Color.encreMintza)
-                Text("\(commerce.ville) · \(commerce.categorie.rawValue)").font(.caption).foregroundStyle(.secondary)
+                Text("\(commerce.ville) · \(TraductionMintza.texte(commerce.categorie.rawValue, langue: langueInterface))").font(.caption).foregroundStyle(.secondary)
                 if commerce.demonstration { EtiquetteDemo() }
             }
             Spacer(minLength: 0)
@@ -163,6 +165,7 @@ struct LigneCommerce: View {
 }
 
 struct EtiquetteDemo: View {
+    @AppStorage("langueAppli") private var langueInterface = "fr"
     var body: some View {
         Text("Démo").font(.caption2.weight(.medium)).foregroundStyle(Color(red: 0.40, green: 0.24, blue: 0.02))
             .padding(.horizontal, 9).padding(.vertical, 4).background(Color(red: 1, green: 0.91, blue: 0.69), in: Capsule())
@@ -171,6 +174,7 @@ struct EtiquetteDemo: View {
 }
 
 struct VueFicheCommerce: View {
+    @AppStorage("langueAppli") private var langueInterface = "fr"
     @EnvironmentObject private var magasin: MagasinMintza
     let commerceID: UUID
     @State private var erreur: String?
@@ -195,7 +199,7 @@ struct VueFicheCommerce: View {
                                     Spacer(minLength: 8)
                                     if commerce.demonstration { EtiquetteDemo() }
                                 }
-                                Text("\(commerce.categorie.rawValue) · \(commerce.ville)").foregroundStyle(.secondary)
+                                Text("\(TraductionMintza.texte(commerce.categorie.rawValue, langue: langueInterface)) · \(commerce.ville)").foregroundStyle(.secondary)
                             }
                             VStack(alignment: .leading, spacing: 14) {
                                 Label("\(commerce.adresse), \(commerce.ville)", systemImage: "mappin.and.ellipse")
@@ -241,7 +245,7 @@ struct VueFicheCommerce: View {
                     if let commerce {
                         Button { do { try magasin.basculerFavori(commerce) } catch { erreur = error.localizedDescription } } label: {
                             Image(systemName: favori ? "heart.fill" : "heart").foregroundStyle(Color.rougeMintza).frame(width: 44, height: 44)
-                        }.accessibilityLabel(favori ? "Retirer des favoris" : "Ajouter aux favoris")
+                        }.accessibilityLabel(LocalizedStringKey(favori ? "Retirer des favoris" : "Ajouter aux favoris"))
                     }
                 }
             }.erreurMintza($erreur)

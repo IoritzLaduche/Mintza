@@ -25,10 +25,10 @@ struct BasculeLangue: View {
     }
     private func bouton(_ code: String, titre: String, nom: String) -> some View {
         Button { withAnimation(.easeInOut(duration: 0.2)) { langueAppli = code } } label: {
-            Text(titre).font(.caption.weight(.semibold)).frame(minWidth: 40, minHeight: 38)
+            Text(LocalizedStringKey(titre)).font(.caption.weight(.semibold)).frame(minWidth: 40, minHeight: 38)
                 .background(langueAppli == code ? Color.vertMintza : .clear, in: Capsule())
                 .foregroundStyle(langueAppli == code ? .white : Color.encreMintza)
-        }.buttonStyle(.plain).accessibilityLabel(nom)
+        }.buttonStyle(.plain).accessibilityLabel(LocalizedStringKey(nom))
             .accessibilityAddTraits(langueAppli == code ? .isSelected : [])
     }
 }
@@ -132,7 +132,7 @@ struct StatistiqueMintza: View {
         VStack(spacing: 7) {
             Image(systemName: icone).font(.title3).foregroundStyle(couleur)
             Text(valeur).font(.system(.title2, design: .rounded, weight: .bold))
-            Text(titre).font(.caption).foregroundStyle(.secondary)
+            Text(LocalizedStringKey(titre)).font(.caption).foregroundStyle(.secondary)
         }.frame(maxWidth: .infinity).padding(.vertical, 16).background(Color.surfaceMintza, in: RoundedRectangle(cornerRadius: 18))
     }
 }
@@ -160,7 +160,7 @@ extension View {
     func erreurMintza(_ erreur: Binding<String?>) -> some View {
         alert("Mintza", isPresented: Binding(get: { erreur.wrappedValue != nil }, set: { if !$0 { erreur.wrappedValue = nil } })) {
             Button("Fermer", role: .cancel) { erreur.wrappedValue = nil }
-        } message: { Text(erreur.wrappedValue ?? "") }
+        } message: { MessageInterface(erreur.wrappedValue ?? "") }
     }
 }
 

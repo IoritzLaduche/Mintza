@@ -58,7 +58,7 @@ struct VueAdministration: View {
                                 ForEach(magasin.etat.profils) { profil in
                                     VStack(alignment: .leading, spacing: 4) {
                                         Text("\(profil.prenom) \(profil.nom)").font(.subheadline.bold())
-                                        Text(profil.role.rawValue).font(.caption).foregroundStyle(.secondary)
+                                        Text(LocalizedStringKey(profil.role.rawValue)).font(.caption).foregroundStyle(.secondary)
                                         if !profil.email.isEmpty { Text(profil.email).font(.caption) }
                                     }
                                 }

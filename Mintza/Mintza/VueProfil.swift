@@ -15,8 +15,17 @@ struct VueProfil: View {
                         Text(String(profil.prenom.prefix(1) + profil.nom.prefix(1)).uppercased())
                             .font(.title2.bold()).frame(width: 64, height: 64).background(Color.vertDouxMintza, in: Circle())
                         VStack(alignment: .leading, spacing: 6) {
-                            Text(profil.prenom).font(.headline)
-                            Text(profil.demonstration ? "Profil de démonstration" : "Apprendre aujourd’hui, profiter demain.").font(.subheadline).foregroundStyle(.secondary)
+                            Text([profil.prenom, profil.nom].filter { !$0.isEmpty }.joined(separator: " "))
+                                .font(.headline).fixedSize(horizontal: false, vertical: true)
+                            if profil.demonstration {
+                                Text("Profil de démonstration").font(.subheadline).foregroundStyle(.secondary)
+                            } else {
+                                if !profil.email.isEmpty {
+                                    Text(profil.email).font(.subheadline).foregroundStyle(.secondary)
+                                        .textSelection(.enabled).fixedSize(horizontal: false, vertical: true)
+                                }
+                                Text(LocalizedStringKey(profil.role.rawValue)).font(.caption.weight(.medium)).foregroundStyle(Color.vertMintza)
+                            }
                         }
                     }
                     TableauProgressionMintza()
@@ -46,7 +55,7 @@ struct VueProfil: View {
     private func ligne(_ titre: String, icone: String) -> some View {
         HStack(spacing: 14) {
             Image(systemName: icone).frame(width: 24).foregroundStyle(.secondary)
-            Text(titre).font(.subheadline.weight(.medium))
+            Text(LocalizedStringKey(titre)).font(.subheadline.weight(.medium))
             Spacer()
             Image(systemName: "chevron.right").font(.caption).foregroundStyle(.secondary)
         }.padding(.vertical, 16).contentShape(Rectangle())
@@ -57,6 +66,7 @@ struct TableauProgressionMintza: View {
     @EnvironmentObject private var magasin: MagasinMintza
     @EnvironmentObject private var catalogue: CatalogueDistant
     @State private var erreur: String?
+    @Environment(\.locale) private var locale
     private var jours: Int { magasin.profil?.activites.filter { $0.value > 0 }.count ?? 0 }
     private var semaine: [Date] {
         let calendrier = Calendar.current
@@ -76,7 +86,7 @@ struct TableauProgressionMintza: View {
                     ForEach(semaine, id: \.self) { jour in
                         let actif = (magasin.profil?.activites[MagasinMintza.cleJour(jour)] ?? 0) > 0
                         VStack(spacing: 10) {
-                            Text(jour.formatted(.dateTime.weekday(.narrow))).font(.caption).foregroundStyle(.secondary)
+                            Text(jour.formatted(.dateTime.weekday(.narrow).locale(locale))).font(.caption).foregroundStyle(.secondary)
                             Image(systemName: actif ? "checkmark.circle.fill" : "circle").foregroundStyle(actif ? Color.vertMintza : Color.traitMintza)
                         }.frame(maxWidth: .infinity)
                             .accessibilityElement(children: .ignore)
@@ -116,7 +126,7 @@ struct TableauProgressionMintza: View {
                     }
                     ForEach(LeconMintza.toutes) { lecon in
                         NavigationLink { VueLecon(lecon: lecon) } label: {
-                            HStack { Text(lecon.titre); Spacer(); Text(magasin.profil?.scores[lecon.id].map { "\($0)/5" } ?? "—") }.font(.subheadline)
+                            HStack { Text(LocalizedStringKey(lecon.titre)); Spacer(); Text(magasin.profil?.scores[lecon.id].map { "\($0)/5" } ?? "—") }.font(.subheadline)
                         }
                     }
                 }.padding(.top, 14)
@@ -128,8 +138,8 @@ struct TableauProgressionMintza: View {
             Image(systemName: obtenu ? icone : "lock.fill").font(.title2).foregroundStyle(obtenu ? .white : .secondary)
                 .frame(width: 56, height: 56).background(obtenu ? couleur : Color.traitMintza, in: Circle())
                 .overlay(Circle().stroke(couleur.opacity(obtenu ? 0.25 : 0), lineWidth: 5))
-            Text(titre).font(.caption.bold())
-            Text(obtenu ? detail : "À débloquer").font(.caption2).foregroundStyle(.secondary).multilineTextAlignment(.center)
+            Text(LocalizedStringKey(titre)).font(.caption.bold())
+            Text(LocalizedStringKey(obtenu ? detail : "À débloquer")).font(.caption2).foregroundStyle(.secondary).multilineTextAlignment(.center)
         }.frame(maxWidth: .infinity).padding(.vertical, 10)
     }
     private func changerObjectif(_ valeur: Int, profil: ProfilMintza) {
@@ -196,7 +206,7 @@ struct VueParametres: View {
         Form {
             Section("Langue de l’interface") {
                 Picker("Langue", selection: $langue) { Text("Français").tag("fr"); Text("Euskara").tag("eu") }
-                Text("La traduction basque de l’interface est partielle dans ce prototype. Les leçons proposent le vocabulaire dans les deux langues.").font(.footnote).foregroundStyle(.secondary)
+                Text("L’interface est disponible en français et en basque. Les exercices conservent leur langue pédagogique.").font(.footnote).foregroundStyle(.secondary)
             }
             Section("À propos de Mintza") {
                 Text("Apprendre, pratiquer, fédérer.").font(.headline)

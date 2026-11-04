@@ -1,5 +1,6 @@
 import SwiftUI
-
+import SwiftUI
+import CoreData
 struct VueAccueil: View {
     @EnvironmentObject private var magasin: MagasinMintza
     @EnvironmentObject private var catalogue: CatalogueDistant
@@ -11,7 +12,7 @@ struct VueAccueil: View {
             VStack(alignment: .leading, spacing: 20) {
                 VueEnTete().padding(.horizontal, 22)
                 VStack(alignment: .leading, spacing: 6) {
-                    Text(magasin.profil.map { "Kaixo, \($0.prenom) !" } ?? "Kaixo !")
+                    Text(magasin.profil.map { LocalizedStringKey("Kaixo, \($0.prenom) !") } ?? LocalizedStringKey("Kaixo !"))
                         .font(.system(.largeTitle, design: .rounded, weight: .bold)).tracking(-0.8)
                     Text("Quelques mots aujourd’hui.\nUne conversation demain.")
                         .font(.body).lineSpacing(4)
@@ -20,7 +21,7 @@ struct VueAccueil: View {
                     IllustrationMintza(nom: "MintzaAccueil", hauteur: 270)
                     if let lecon = prochaineLecon {
                         NavigationLink { VueLeconDistante(lecon: lecon) } label: {
-                            HStack { Text(magasin.nombreLeconsTerminees > 0 ? "Continuer ma leçon" : "Commencer à apprendre"); Spacer(); Image(systemName: "arrow.right") }
+                            HStack { Text(LocalizedStringKey(magasin.nombreLeconsTerminees > 0 ? "Continuer ma leçon" : "Commencer à apprendre")); Spacer(); Image(systemName: "arrow.right") }
                         }.buttonStyle(StyleBoutonCapsulePrincipal())
                             .padding(5).background(Color.fondMintza, in: RoundedRectangle(cornerRadius: 22))
                             .padding(.horizontal, 18).padding(.top, -22)
@@ -74,4 +75,11 @@ struct CarteMenu: View {
             Text(LocalizedStringKey(sousTitre)).font(.caption).foregroundStyle(.secondary).fixedSize(horizontal: false, vertical: true)
         }.frame(maxWidth: .infinity, alignment: .leading).carteMintza()
     }
+}
+#Preview("Mintza") {
+    ContentView()
+        .environment(
+            \.managedObjectContext,
+            PersistenceController.preview.container.viewContext
+        )
 }

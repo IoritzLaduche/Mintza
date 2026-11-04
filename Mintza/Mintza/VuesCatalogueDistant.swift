@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct VueApprentissageDistant: View {
+    @AppStorage("langueAppli") private var langueInterface = "fr"
     var racine = false
     @EnvironmentObject private var catalogue: CatalogueDistant
     @EnvironmentObject private var magasin: MagasinMintza
@@ -59,18 +60,20 @@ struct VueApprentissageDistant: View {
 }
 
 struct VueErreurCatalogue: View {
+    @AppStorage("langueAppli") private var langueInterface = "fr"
     let message: String
     let reessayer: () -> Void
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             Label("Connexion au catalogue", systemImage: "wifi.exclamationmark").font(.headline)
-            Text(message).font(.subheadline)
+            MessageInterface(message).font(.subheadline)
             Button("Réessayer", action: reessayer).buttonStyle(.bordered)
         }.frame(maxWidth: .infinity, alignment: .leading).carteMintza()
     }
 }
 
 struct VueLeconDistante: View {
+    @AppStorage("langueAppli") private var langueInterface = "fr"
     let lecon: LeconDistante
     @EnvironmentObject private var catalogue: CatalogueDistant
     @State private var exercices: [ExerciceDistant] = []
@@ -118,6 +121,7 @@ struct VueLeconDistante: View {
 }
 
 struct VueExercicesDistants: View {
+    @AppStorage("langueAppli") private var langueInterface = "fr"
     let lecon: LeconDistante
     let exercices: [ExerciceDistant]
     @EnvironmentObject private var magasin: MagasinMintza
@@ -161,7 +165,7 @@ struct VueExercicesDistants: View {
                         contenu(exercice)
                         if corrige {
                             VStack(alignment: .leading, spacing: 12) {
-                                Label(bonneReponse ? "Bonne réponse !" : "À retenir", systemImage: bonneReponse ? "checkmark.circle.fill" : "lightbulb.fill").font(.headline)
+                                Label(LocalizedStringKey(bonneReponse ? "Bonne réponse !" : "À retenir"), systemImage: bonneReponse ? "checkmark.circle.fill" : "lightbulb.fill").font(.headline)
                                 if !bonneReponse { Text(exercice.correctionLisible).font(.body.weight(.semibold)) }
                                 if let explication = exercice.explicationExo { Text(explication).font(.subheadline) }
                             }.frame(maxWidth: .infinity, alignment: .leading).carteMintza()
@@ -176,7 +180,7 @@ struct VueExercicesDistants: View {
         .safeAreaInset(edge: .bottom) {
             if !termine && exercice != nil {
                 Button(action: avancer) {
-                    Text(corrige ? (index + 1 == exercices.count ? "Voir mon résultat" : "Exercice suivant") : "Vérifier")
+                    Text(LocalizedStringKey(corrige ? (index + 1 == exercices.count ? "Voir mon résultat" : "Exercice suivant") : "Vérifier"))
                         .frame(maxWidth: .infinity)
                 }.buttonStyle(StyleBoutonCapsulePrincipal()).disabled(!reponseComplete)
                     .padding(22).background(Color.fondMintza)
@@ -212,8 +216,8 @@ struct VueExercicesDistants: View {
             boutonsChoix(exercice.contenuExo.choix ?? [])
         case .vrai_faux:
             Text(exercice.contenuExo.affirmation ?? "").font(.title3).carteMintza()
-            bouton("Vrai", selectionne: valeur == true) { valeur = true }
-            bouton("Faux", selectionne: valeur == false) { valeur = false }
+            bouton(TraductionMintza.texte("Vrai", langue: langueInterface), selectionne: valeur == true) { valeur = true }
+            bouton(TraductionMintza.texte("Faux", langue: langueInterface), selectionne: valeur == false) { valeur = false }
         case .association:
             associations(exercice)
         case .ordre_mots:
@@ -334,10 +338,10 @@ struct VueExercicesDistants: View {
             Text("\(score) / \(exercices.count)").font(.system(size: 52, weight: .bold, design: .rounded))
             Text("Chaque échange commence par quelques mots.").multilineTextAlignment(.center)
             if let erreurSauvegarde {
-                Text(erreurSauvegarde).foregroundStyle(Color.rougeMintza)
+                MessageInterface(erreurSauvegarde).foregroundStyle(Color.rougeMintza)
                 Button("Réessayer la sauvegarde", action: enregistrer)
             } else {
-                Text(magasin.profil == nil ? "Mode invité : ce résultat n’est pas enregistré." : "Meilleur résultat enregistré sur cet iPhone.")
+                Text(LocalizedStringKey(magasin.profil == nil ? "Mode invité : ce résultat n’est pas enregistré." : "Meilleur résultat enregistré sur cet iPhone."))
                     .font(.subheadline).foregroundStyle(.secondary).multilineTextAlignment(.center)
             }
             Button("Recommencer") {

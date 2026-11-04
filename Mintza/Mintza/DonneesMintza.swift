@@ -11,6 +11,8 @@ struct ProfilMintza: Codable, Identifiable {
     var nom: String
     var email: String
     var role: RoleMintza
+    var idServeur: Int?
+    var adresseServeur: String?
     var demonstration = false
     var objectif = 1
     var scores: [String: Int] = [:]

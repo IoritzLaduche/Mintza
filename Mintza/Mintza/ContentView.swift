@@ -11,6 +11,7 @@ private enum OngletMintza: Int, CaseIterable {
 }
 
 struct ContentView: View {
+    @Environment(\.scenePhase) private var phase
     @AppStorage("langueAppli") private var langueAppli = "fr"
     @StateObject private var magasin = MagasinMintza()
     @StateObject private var catalogue = CatalogueDistant()
@@ -28,11 +29,15 @@ struct ContentView: View {
         .foregroundStyle(Color.encreMintza)
         .environmentObject(magasin)
         .environmentObject(catalogue)
+        .task { await magasin.restaurerSessionDistante() }
         .task { await catalogue.charger() }
+        .onChange(of: phase) { _, nouvellePhase in
+            if nouvellePhase == .active { Task { await magasin.restaurerSessionDistante() } }
+        }
         .environment(\.locale, Locale(identifier: langueAppli))
         .alert("Stockage local", isPresented: Binding(get: { magasin.erreurStockage != nil }, set: { if !$0 { magasin.erreurStockage = nil } })) {
             Button("Fermer", role: .cancel) { magasin.erreurStockage = nil }
-        } message: { Text(magasin.erreurStockage ?? "") }
+        } message: { MessageInterface(magasin.erreurStockage ?? "") }
     }
 
     private var barreOnglets: some View {

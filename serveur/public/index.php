@@ -3,6 +3,7 @@
 declare(strict_types=1);
 ini_set('display_errors', '0');
 require_once __DIR__ . '/../sources/reponse.php';
+require_once __DIR__ . '/../sources/authentification.php';
 require_once __DIR__ . '/../sources/base_de_donnees.php';
 require_once __DIR__ . '/../sources/acces_donnees/catalogue.php';
 require_once __DIR__ . '/../sources/controleurs/catalogue.php';
@@ -11,6 +12,9 @@ try {
     $route = $_GET['route'] ?? 'sante';
     if (!is_string($route)) {
         repondreEnJson(['erreur' => 'Route invalide.'], 400);
+    }
+    if (in_array($route, ['auth-defi', 'auth-google', 'auth-session', 'auth-deconnexion'], true)) {
+        traiterAuthentification($route);
     }
     if (!in_array($route, ['sante', 'lecons', 'exercices', 'commerces'], true)) {
         repondreEnJson(['erreur' => 'Route introuvable.'], 404);
@@ -28,6 +32,8 @@ try {
         'exercices' => listerExercices(),
         'commerces' => listerCommerces(),
     };
+} catch (ErreurAuthentification $erreur) {
+    repondreEnJson(['erreur' => $erreur->getMessage()], $erreur->statut);
 } catch (PDOException $erreur) {
     error_log('Mintza : erreur SQL, code ' . $erreur->getCode());
     repondreEnJson(['erreur' => 'Base indisponible ou schéma non importé.'], 503);

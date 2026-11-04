@@ -31,7 +31,7 @@ struct VueApprentissage: View {
                                     VignetteMintza(nom: lecon.illustration, taille: 80)
                                     VStack(alignment: .leading, spacing: 6) {
                                         Text(String(format: "%02d", index + 1)).font(.caption).foregroundStyle(.secondary)
-                                        Text(lecon.titre).font(.headline).foregroundStyle(Color.encreMintza)
+                                        Text(LocalizedStringKey(lecon.titre)).font(.headline).foregroundStyle(Color.encreMintza)
                                         if let score = magasin.profil?.scores[lecon.id] {
                                             Label("Terminé · \(score)/5", systemImage: "checkmark.circle.fill").font(.caption).foregroundStyle(Color.vertMintza)
                                         } else {
@@ -74,7 +74,7 @@ struct VueLecon: View {
             VStack(alignment: .leading, spacing: 22) {
                 IllustrationMintza(nom: lecon.illustration, hauteur: 200).clipShape(RoundedRectangle(cornerRadius: 22))
                 Label("A1 · Débutant", systemImage: lecon.icone).font(.headline).foregroundStyle(Color.vertMintza)
-                Text(lecon.description).font(.title2.bold())
+                Text(LocalizedStringKey(lecon.description)).font(.title2.bold())
                 Text("Les mots à retenir").font(.headline)
                 VStack(spacing: 0) {
                     ForEach(lecon.mots) { mot in
@@ -90,7 +90,7 @@ struct VueLecon: View {
                 }.buttonStyle(StyleBoutonCapsulePrincipal())
             }.padding(20)
         }.background(Color.fondMintza)
-            .navigationTitle(lecon.titre).navigationBarTitleDisplayMode(.inline)
+            .navigationTitle(LocalizedStringKey(lecon.titre)).navigationBarTitleDisplayMode(.inline)
             .toolbar(.visible, for: .navigationBar)
             .fullScreenCover(isPresented: $quizOuvert) { NavigationStack { VueQuiz(lecon: lecon) }.tint(.vertMintza).foregroundStyle(Color.encreMintza) }
     }
@@ -139,7 +139,7 @@ struct VueQuiz: View {
                     }
                     if corrige {
                         VStack(alignment: .leading, spacing: 10) {
-                            Label(selection == question.reponse ? "Bonne réponse !" : "À retenir", systemImage: selection == question.reponse ? "checkmark.circle.fill" : "lightbulb.fill").font(.headline)
+                            Label(LocalizedStringKey(selection == question.reponse ? "Bonne réponse !" : "À retenir"), systemImage: selection == question.reponse ? "checkmark.circle.fill" : "lightbulb.fill").font(.headline)
                             Text(question.explication).font(.subheadline)
                         }.padding(20).frame(maxWidth: .infinity, alignment: .leading)
                             .background(Color.vertDouxMintza, in: RoundedRectangle(cornerRadius: 20))
@@ -152,12 +152,12 @@ struct VueQuiz: View {
             .safeAreaInset(edge: .bottom) {
                 if !termine {
                     Button(action: avancer) {
-                        HStack { Spacer(); Text(corrige ? (index + 1 == lecon.questions.count ? "Voir mon résultat" : "Question suivante") : "Vérifier"); Image(systemName: "arrow.right"); Spacer() }
+                        HStack { Spacer(); Text(LocalizedStringKey(corrige ? (index + 1 == lecon.questions.count ? "Voir mon résultat" : "Question suivante") : "Vérifier")); Image(systemName: "arrow.right"); Spacer() }
                     }.buttonStyle(StyleBoutonCapsulePrincipal()).disabled(selection == nil)
                         .padding(24).background(Color.fondMintza)
                 }
             }
-            .navigationTitle(lecon.titre).navigationBarTitleDisplayMode(.inline)
+            .navigationTitle(LocalizedStringKey(lecon.titre)).navigationBarTitleDisplayMode(.inline)
             .toolbarBackground(Color.fondMintza, for: .navigationBar).toolbarBackground(.visible, for: .navigationBar)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
@@ -191,10 +191,10 @@ struct VueQuiz: View {
     private var resultat: some View {
         VStack(spacing: 24) {
             Image(systemName: score >= 4 ? "star.circle.fill" : "hands.clap.fill").font(.system(size: 80)).foregroundStyle(Color.vertMintza)
-            Text(score >= 4 ? "Oso ongi !" : "Continuez comme ça !").font(.system(.largeTitle, design: .rounded, weight: .bold)).multilineTextAlignment(.center)
+            Text(LocalizedStringKey(score >= 4 ? "Oso ongi !" : "Continuez comme ça !")).font(.system(.largeTitle, design: .rounded, weight: .bold)).multilineTextAlignment(.center)
             Text("\(score) / \(lecon.questions.count)").font(.system(size: 56, weight: .bold, design: .rounded))
             Text("Chaque échange commence par quelques mots.").multilineTextAlignment(.center).foregroundStyle(.secondary)
-            if let erreur { Text(erreur).foregroundStyle(Color.rougeMintza); Button("Réessayer la sauvegarde", action: enregistrer) }
+            if let erreur { MessageInterface(erreur).foregroundStyle(Color.rougeMintza); Button("Réessayer la sauvegarde", action: enregistrer) }
             else if magasin.profil != nil { Text("Meilleur score conservé · \(magasin.xp) XP au total").font(.subheadline) }
             else { Text("Mode invité : ce résultat n’est pas enregistré.").font(.subheadline) }
             Button("Recommencer") { index = 0; selection = nil; corrige = false; score = 0; termine = false; sauvegarde = false; erreur = nil }

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import GoogleSignIn
 import CoreData
 
 @main
@@ -15,6 +16,7 @@ struct MintzaApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onOpenURL { GIDSignIn.sharedInstance.handle($0) }
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

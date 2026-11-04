@@ -17,5 +17,22 @@
 	</dict>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>Mintza se connecte au serveur de l’université pour charger les leçons et les exercices.</string>
+	<key>MintzaAuthURL</key>
+	<string>https://10.3.16.227/api/index.php</string>
+	<key>GIDClientID</key>
+	<string>252488088117-fv1m51pd68j4nscga5c1lg1rd0vk5eut.apps.googleusercontent.com</string>
+	<key>GIDServerClientID</key>
+	<string>252488088117-f28spjt0bsuvdvbk095l0i6524j08cnv.apps.googleusercontent.com</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.252488088117-fv1m51pd68j4nscga5c1lg1rd0vk5eut</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

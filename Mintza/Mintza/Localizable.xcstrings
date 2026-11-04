@@ -1,873 +1,5633 @@
 {
-  "sourceLanguage" : "en",
-  "strings" : {
-    "—" : {
-
-    },
-    "%@ : %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ : %2$@"
+  "sourceLanguage": "fr",
+  "strings": {
+    "—": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "—"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "—"
           }
         }
       }
     },
-    "%@ · %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ · %2$@"
+    "%@ : %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ : %@"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ : %@"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "%@ · %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · %@"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · %@"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "%@ %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ %@"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ %@"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "%@, %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, %@"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, %@"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "%lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
           }
         }
       }
     },
-    "%@ %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ %2$@"
+    "%lld / %lld": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld / %lld"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld / %lld"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "%lld / %lld associations": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld / %lld associations"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld / %lld lotura"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "%lld / %lld leçon(s)": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld / %lld leçon(s)"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld / %lld ikasgai"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "%lld exercices": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld exercices"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ariketa"
           }
         }
       }
     },
-    "%@, %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@, %2$@"
+    "%lld leçon(s) par jour": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld leçon(s) par jour"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ikasgai egunean"
           }
         }
       }
     },
-    "%lld" : {
-
-    },
-    "%lld / %lld" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$lld / %2$lld"
+    "%lld lieu(x)": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld lieu(x)"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld leku"
           }
         }
       }
     },
-    "%lld / %lld associations" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$lld / %2$lld associations"
+    "%lld.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld."
           }
         }
       }
     },
-    "%lld / %lld leçon(s)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$lld / %2$lld leçon(s)"
+    "%lld/%lld": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld/%lld"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld/%lld"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "%lld/5": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld/5"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld/5"
           }
         }
       }
     },
-    "%lld exercices" : {
-
-    },
-    "%lld leçon(s) par jour" : {
-
-    },
-    "%lld lieu(x)" : {
-
-    },
-    "%lld." : {
-
-    },
-    "%lld/%lld" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$lld/%2$lld"
+    "→ %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "→ %@"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "→ %@"
           }
         }
       }
     },
-    "%lld/5" : {
-
-    },
-    "→ %@" : {
-
-    },
-    "1" : {
-
-    },
-    "5 questions · 3 min" : {
-
-    },
-    "8 caractères minimum. Les identifiants sont enregistrés dans le trousseau de cet appareil." : {
-
-    },
-    "À propos de Mintza" : {
-
-    },
-    "À retenir" : {
-
-    },
-    "À venir" : {
-
-    },
-    "A1 · Débutant" : {
-
-    },
-    "Accès réservé" : {
-
-    },
-    "Accueil" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "eu" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Etxea"
+    "1": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1"
           }
         }
       }
     },
-    "Activité cette semaine" : {
-
-    },
-    "Administration" : {
-
-    },
-    "Adresse" : {
-
-    },
-    "Adresse e-mail" : {
-
-    },
-    "Aide à la connexion" : {
-
-    },
-    "Ajouter aux favoris" : {
-
-    },
-    "Annuler" : {
-
-    },
-    "Apprenant" : {
-
-    },
-    "Apprendre" : {
-      "localizations" : {
-        "eu" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ikasi"
+    "5 questions · 3 min": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 questions · 3 min"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 galdera · 3 min"
           }
         }
       }
     },
-    "Apprendre aujourd’hui, profiter demain." : {
-
-    },
-    "Apprendre, pratiquer, fédérer." : {
-
-    },
-    "Aucun commerce" : {
-
-    },
-    "Aucun commerce publié pour le moment." : {
-
-    },
-    "Aucun favori" : {
-
-    },
-    "Aucune demande dans cette catégorie." : {
-
-    },
-    "Aucune leçon pour ce niveau" : {
-
-    },
-    "Augmenter l’objectif" : {
-
-    },
-    "Bienvenue sur Mintza," : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "eu" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ongi Etorri Mintza-ra,"
+    "8 caractères minimum. Les identifiants sont enregistrés dans le trousseau de cet appareil.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "8 caractères minimum. Les identifiants sont enregistrés dans le trousseau de cet appareil."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gutxienez 8 karaktere. Sarbide-datuak gailu honetako giltzatakoan gordetzen dira."
           }
         }
       }
     },
-    "Bonjour" : {
-
-    },
-    "Bonjour ! Merci !" : {
-
-    },
-    "Bonne réponse !" : {
-
-    },
-    "Carte" : {
-      "localizations" : {
-        "eu" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mapa"
+    "À propos de Mintza": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À propos de Mintza"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mintzari buruz"
           }
         }
       }
     },
-    "Catégorie" : {
-
-    },
-    "Ce commerce a été retiré de la carte." : {
-
-    },
-    "Ce compte est local au prototype. Il n’est pas synchronisé avec un serveur." : {
-
-    },
-    "Centrer sur ma position" : {
-
-    },
-    "Cette leçon se prépare" : {
-
-    },
-    "Chaque demande est examinée par l’administration avant publication sur la carte." : {
-
-    },
-    "Chaque échange commence par quelques mots." : {
-
-    },
-    "Chargement des exercices…" : {
-
-    },
-    "Chargement des leçons…" : {
-
-    },
-    "Choisir cet emplacement" : {
-
-    },
-    "Choisir sur la carte" : {
-
-    },
-    "Commencer" : {
-
-    },
-    "Commencer à apprendre" : {
-
-    },
-    "Commencer le quiz" : {
-
-    },
-    "Comment peut-on pratiquer l’euskara chez vous ?" : {
-
-    },
-    "Commerçant" : {
-
-    },
-    "Commerce" : {
-
-    },
-    "Commerce fictif de démonstration" : {
-
-    },
-    "Commerces publiés" : {
-
-    },
-    "Compte local" : {
-
-    },
-    "Comptes du prototype" : {
-
-    },
-    "Comptes, scores, favoris et demandes sont enregistrés sur cet appareil. Les mots de passe sont conservés dans le trousseau iOS. Aucun serveur de comptes n’est connecté." : {
-
-    },
-    "Confirmer le mot de passe" : {
-
-    },
-    "Connexion" : {
-      "localizations" : {
-        "eu" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Konektatu"
+    "À retenir": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À retenir"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gogoan hartzeko"
           }
         }
       }
     },
-    "Connexion au catalogue" : {
-
-    },
-    "Continuer ma leçon" : {
-
-    },
-    "Continuez comme ça !" : {
-
-    },
-    "Corriger et soumettre à nouveau" : {
-
-    },
-    "Créer mon compte" : {
-
-    },
-    "Créer un autre compte" : {
-
-    },
-    "Créez un profil commerçant pour proposer votre lieu et suivre sa validation." : {
-
-    },
-    "De nouvelles leçons seront ajoutées prochainement." : {
-
-    },
-    "Découvrez le basque et le français ensemble." : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "eu" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ezagutu euskara eta frantsesa batera"
+    "À venir": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À venir"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Laster"
           }
         }
       }
     },
-    "Demande envoyée" : {
-
-    },
-    "Demande indisponible ou accès non autorisé." : {
-
-    },
-    "Demande introuvable." : {
-
-    },
-    "Démo" : {
-
-    },
-    "Déplacez la carte pour placer votre commerce sous le repère." : {
-
-    },
-    "Diminuer l’objectif" : {
-
-    },
-    "Données et confidentialité" : {
-
-    },
-    "Effacer la recherche" : {
-
-    },
-    "Elle ne contient pas encore d’exercice." : {
-
-    },
-    "Emplacement" : {
-
-    },
-    "En attente" : {
-
-    },
-    "Enregistrer" : {
-
-    },
-    "Enregistrer les modifications" : {
-
-    },
-    "Enregistrer ma progression" : {
-
-    },
-    "Envoyer ma demande" : {
-
-    },
-    "Espace commerçant" : {
-
-    },
-    "Essayez une autre recherche ou désactivez un filtre." : {
-
-    },
-    "Euskara" : {
-
-    },
-    "Examiner la demande" : {
-
-    },
-    "Exercice %lld sur %lld" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Exercice %1$lld sur %2$lld"
+    "A1 · Débutant": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A1 · Débutant"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A1 · Hasiberria"
           }
         }
       }
     },
-    "Exercice suivant" : {
-
-    },
-    "Explorer la démonstration" : {
-
-    },
-    "Faites vivre l’euskara dans votre commerce." : {
-
-    },
-    "Fermer" : {
-
-    },
-    "Fiche indisponible" : {
-
-    },
-    "Fiche mise à jour" : {
-
-    },
-    "Français" : {
-
-    },
-    "Horaires" : {
-
-    },
-    "Ici, on parle euskara" : {
-
-    },
-    "Identifiants" : {
-
-    },
-    "Informations" : {
-
-    },
-    "Informations personnelles" : {
-
-    },
-    "Informations transmises" : {
-
-    },
-    "Itinéraire dans Plans" : {
-
-    },
-    "Je suis" : {
-
-    },
-    "Kafe bat, mesedez" : {
-
-    },
-    "Kaixo" : {
-
-    },
-    "Kaixo !" : {
-
-    },
-    "Kaixo, %@ !" : {
-
-    },
-    "Kaixo! Eskerrik asko!" : {
-
-    },
-    "L’accès à votre position est facultatif et demandé uniquement lorsque vous touchez le bouton de localisation sur la carte." : {
-
-    },
-    "La fiche publiée sera mise à jour immédiatement." : {
-
-    },
-    "La traduction basque de l’interface est partielle dans ce prototype. Les leçons proposent le vocabulaire dans les deux langues." : {
-
-    },
-    "Langue" : {
-
-    },
-    "Langue de l’interface" : {
-
-    },
-    "Le mot du jour" : {
-
-    },
-    "Le prototype ne dispose pas de serveur d’authentification. La récupération par e-mail n’est donc pas encore disponible." : {
-
-    },
-    "Les leçons du niveau %@ seront ajoutées après le prototype A1." : {
-
-    },
-    "Les Mintzakide" : {
-
-    },
-    "Les modifications sont visibles sur la carte." : {
-
-    },
-    "Les mots à retenir" : {
-
-    },
-    "Les quatre commerces initiaux sont fictifs et servent à la démonstration. Le fond de carte et les itinéraires utilisent les services Apple et peuvent nécessiter Internet." : {
-
-    },
-    "Lieu fictif · Illustration d’ambiance générée." : {
-
-    },
-    "Lieux « Démo » fictifs. Illustrations d’ambiance." : {
-
-    },
-    "Lun–sam · 9 h–18 h" : {
-
-    },
-    "Ma progression" : {
-
-    },
-    "Meilleur résultat enregistré sur cet iPhone." : {
-
-    },
-    "Meilleur score conservé · %lld XP au total" : {
-
-    },
-    "Mes commerces publiés" : {
-
-    },
-    "Mes favoris" : {
-
-    },
-    "Mes meilleurs scores" : {
-
-    },
-    "Mes réussites" : {
-
-    },
-    "Message au commerçant" : {
-
-    },
-    "Mintza" : {
-
-    },
-    "MINTZA" : {
-      "localizations" : {
-        "eu" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MINTZA"
+    "Accès réservé": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accès réservé"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sarbide mugatua"
           }
         }
       }
     },
-    "Mise à jour de fiche" : {
-
-    },
-    "Mode invité : ce résultat n’est pas enregistré." : {
-
-    },
-    "Modifier l’emplacement" : {
-
-    },
-    "Modifier mon profil" : {
-
-    },
-    "Mon commerce" : {
-
-    },
-    "Mon espace commerçant" : {
-
-    },
-    "Mon objectif" : {
-
-    },
-    "Mon rythme" : {
-
-    },
-    "Mot de passe" : {
-
-    },
-    "Mot de passe oublié ?" : {
-      "localizations" : {
-        "eu" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pasahitza ahaztua ?"
+    "Accueil": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accueil"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hasiera"
           }
         }
       }
     },
-    "Nom" : {
-
-    },
-    "Nom du commerce" : {
-
-    },
-    "Nouveau référencement" : {
-
-    },
-    "Numéro de téléphone" : {
-
-    },
-    "Numéro et rue" : {
-
-    },
-    "Oso ongi !" : {
-
-    },
-    "Ouvrez le profil Administrateur depuis les accès de démonstration." : {
-
-    },
-    "Ouvrez une fiche depuis la carte et touchez le cœur pour la retrouver ici." : {
-
-    },
-    "Paramètres" : {
-
-    },
-    "Position : %@, %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Position : %1$@, %2$@"
+    "Activité cette semaine": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activité cette semaine"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aste honetako jarduera"
           }
         }
       }
     },
-    "Position choisie : %@, %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Position choisie : %1$@, %2$@"
+    "Administration": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administration"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administrazioa"
           }
         }
       }
     },
-    "Prénom" : {
-
-    },
-    "Profil" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "eu" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Profila"
+    "Adresse": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adresse"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helbidea"
           }
         }
       }
     },
-    "Profil de démonstration" : {
-
-    },
-    "Prototype local : comptes et progression restent sur cet appareil." : {
-
-    },
-    "Publication après validation. L’adresse ne déplace pas automatiquement le repère sur la carte." : {
-
-    },
-    "Quelques mots aujourd’hui.\nUne conversation demain." : {
-
-    },
-    "Question %lld sur %lld" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Question %1$lld sur %2$lld"
+    "Adresse e-mail": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adresse e-mail"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helbide elektronikoa"
           }
         }
       }
     },
-    "Question suivante" : {
-
-    },
-    "Quitter" : {
-
-    },
-    "Quitter cette tentative ? Les réponses en cours ne seront pas enregistrées." : {
-
-    },
-    "Quitter le quiz" : {
-
-    },
-    "Quitter le quiz ? Les réponses de cette tentative ne seront pas enregistrées." : {
-
-    },
-    "Quitter les exercices" : {
-
-    },
-    "Recommencer" : {
-
-    },
-    "Recommencer les associations" : {
-
-    },
-    "Réessayer" : {
-
-    },
-    "Réessayer la sauvegarde" : {
-
-    },
-    "Référencer mon commerce" : {
-
-    },
-    "Référencer un commerce" : {
-
-    },
-    "Refusées" : {
-
-    },
-    "Refuser" : {
-
-    },
-    "Rejoindre les Mintzakide" : {
-
-    },
-    "Réponse de l’administration" : {
-
-    },
-    "Reprendre" : {
-
-    },
-    "Retirer %@" : {
-
-    },
-    "Retirer %@ de la carte ?" : {
-
-    },
-    "Retirer de la carte" : {
-
-    },
-    "Retirer des favoris" : {
-
-    },
-    "Revenir au Pays Basque" : {
-
-    },
-    "Réviser avant ma visite" : {
-
-    },
-    "S’inscrire" : {
-      "localizations" : {
-        "eu" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Inskribatu"
+    "Aide à la connexion": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aide à la connexion"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioa hasteko laguntza"
           }
         }
       }
     },
-    "Se connecter" : {
-
-    },
-    "Se connecter ou essayer la démo" : {
-
-    },
-    "Se connecter pour garder sa progression" : {
-
-    },
-    "Se déconnecter" : {
-
-    },
-    "Se déconnecter ?" : {
-
-    },
-    "Si vous avez oublié votre mot de passe, vous pouvez explorer les profils de démonstration ou créer un autre compte local. Votre ancien compte et sa progression restent conservés." : {
-
-    },
-    "Statut" : {
-
-    },
-    "Stockage local" : {
-
-    },
-    "Suivi de demande" : {
-
-    },
-    "Suivi de mes demandes" : {
-
-    },
-    "Téléphone" : {
-
-    },
-    "Téléphone (facultatif)" : {
-
-    },
-    "Terminé" : {
-
-    },
-    "Terminé · %lld/%lld" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Terminé · %1$lld/%2$lld"
+    "Ajouter aux favoris": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter aux favoris"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gogokoetara gehitu"
           }
         }
       }
     },
-    "Terminé · %lld/5" : {
-
+    "Annuler": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utzi"
+          }
+        }
+      }
     },
-    "Terminer la leçon" : {
-
+    "Apprenant": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apprenant"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikaslea"
+          }
+        }
+      }
     },
-    "Touchez les groupes dans l’ordre. Touchez un groupe choisi pour le retirer." : {
-
+    "Apprendre": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apprendre"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikasi"
+          }
+        }
+      },
+      "extractionState": "manual"
     },
-    "Touchez un élément à gauche, puis son correspondant à droite." : {
-
+    "Apprendre, pratiquer, fédérer.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apprendre, pratiquer, fédérer."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikasi, praktikatu, elkartu."
+          }
+        }
+      }
     },
-    "Tout effacer" : {
-
+    "Aucun commerce": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun commerce"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ez dago saltokirik"
+          }
+        }
+      }
     },
-    "Un café, s’il vous plaît" : {
-
+    "Aucun commerce publié pour le moment.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun commerce publié pour le moment."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oraindik ez dago argitaratutako saltokirik."
+          }
+        }
+      }
     },
-    "Un lieu, une ville…" : {
-
+    "Aucun favori": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun favori"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ez dago gogokorik"
+          }
+        }
+      }
     },
-    "Un mot utile" : {
-
+    "Aucune demande dans cette catégorie.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune demande dans cette catégorie."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ez dago eskaerarik kategoria honetan."
+          }
+        }
+      }
     },
-    "Un motif est requis en cas de refus." : {
-
+    "Aucune leçon pour ce niveau": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune leçon pour ce niveau"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ez dago ikasgairik maila honetan"
+          }
+        }
+      }
     },
-    "Un projet étudiant ISA NUM pour rapprocher l’apprentissage de l’euskara des échanges du quotidien dans le Pays Basque." : {
-
+    "Augmenter l’objectif": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Augmenter l’objectif"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helburua handitu"
+          }
+        }
+      }
     },
-    "Validées" : {
-
+    "Bienvenue sur Mintza,": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bienvenue sur Mintza,"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ongi etorri Mintzara,"
+          }
+        }
+      }
     },
-    "Valider" : {
-
+    "Bonjour": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bonjour"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Egun on"
+          }
+        }
+      }
     },
-    "Vérifier" : {
-
+    "Bonjour ! Merci !": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bonjour ! Merci !"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaixo! Eskerrik asko!"
+          }
+        }
+      }
     },
-    "Version" : {
-
+    "Bonne réponse !": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bonne réponse !"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erantzun zuzena!"
+          }
+        }
+      }
     },
-    "Ville" : {
-
+    "Carte": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carte"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mapa"
+          }
+        }
+      },
+      "extractionState": "manual"
     },
-    "Voir mon résultat" : {
-
+    "Catégorie": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Catégorie"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kategoria"
+          }
+        }
+      }
     },
-    "Vos demandes et leurs réponses apparaîtront ici." : {
-
+    "Ce commerce a été retiré de la carte.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce commerce a été retiré de la carte."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saltoki hau mapatik kendu da."
+          }
+        }
+      }
     },
-    "Votre demande est en attente de validation. Une fiche déjà publiée reste visible avec ses anciennes informations pendant l’examen." : {
-
+    "Ce compte est local au prototype. Il n’est pas synchronisé avec un serveur.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce compte est local au prototype. Il n’est pas synchronisé avec un serveur."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontu hau prototipoan soilik gordetzen da. Ez dago zerbitzari batekin sinkronizatuta."
+          }
+        }
+      }
     },
-    "Votre leçon" : {
-
+    "Centrer sur ma position": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Centrer sur ma position"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire kokapenera joan"
+          }
+        }
+      }
     },
-    "Votre phrase apparaîtra ici." : {
-
+    "Cette leçon se prépare": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette leçon se prépare"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikasgai hau prestatzen ari gara"
+          }
+        }
+      }
     },
-    "Votre profil actuel est apprenant. Déconnectez-vous dans Profil pour utiliser ou créer un compte commerçant." : {
-
+    "Chaque demande est examinée par l’administration avant publication sur la carte.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chaque demande est examinée par l’administration avant publication sur la carte."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administrazioak eskaera bakoitza aztertzen du mapan argitaratu aurretik."
+          }
+        }
+      }
     },
-    "Vous pouvez suivre son état dans votre espace commerçant." : {
-
+    "Chaque échange commence par quelques mots.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chaque échange commence par quelques mots."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elkarrizketa bakoitza hitz gutxi batzuekin hasten da."
+          }
+        }
+      }
     },
-    "vous@exemple.fr" : {
-
+    "Chargement des exercices…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chargement des exercices…"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ariketak kargatzen…"
+          }
+        }
+      }
+    },
+    "Chargement des leçons…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chargement des leçons…"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikasgaiak kargatzen…"
+          }
+        }
+      }
+    },
+    "Choisir cet emplacement": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir cet emplacement"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokapen hau hautatu"
+          }
+        }
+      }
+    },
+    "Choisir sur la carte": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir sur la carte"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mapan hautatu"
+          }
+        }
+      }
+    },
+    "Commencer": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commencer"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hasi"
+          }
+        }
+      }
+    },
+    "Commencer à apprendre": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commencer à apprendre"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikasten hasi"
+          }
+        }
+      }
+    },
+    "Commencer le quiz": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commencer le quiz"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Galdetegia hasi"
+          }
+        }
+      }
+    },
+    "Comment peut-on pratiquer l’euskara chez vous ?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment peut-on pratiquer l’euskara chez vous ?"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nola praktikatu daiteke euskara zure saltokian?"
+          }
+        }
+      }
+    },
+    "Commerçant": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commerçant"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saltzailea"
+          }
+        }
+      }
+    },
+    "Commerce": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commerce"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saltokia"
+          }
+        }
+      }
+    },
+    "Commerce fictif de démonstration": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commerce fictif de démonstration"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erakustaldirako fikziozko saltokia"
+          }
+        }
+      }
+    },
+    "Commerces publiés": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commerces publiés"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Argitaratutako saltokiak"
+          }
+        }
+      }
+    },
+    "Compte local": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compte local"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tokiko kontua"
+          }
+        }
+      }
+    },
+    "Comptes du prototype": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comptes du prototype"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prototipoko kontuak"
+          }
+        }
+      }
+    },
+    "Comptes, scores, favoris et demandes sont enregistrés sur cet appareil. Les mots de passe sont conservés dans le trousseau iOS. Aucun serveur de comptes n’est connecté.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comptes, scores, favoris et demandes sont enregistrés sur cet appareil. Les mots de passe sont conservés dans le trousseau iOS. Aucun serveur de comptes n’est connecté."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontuak, puntuazioak, gogokoak eta eskaerak gailu honetan gordetzen dira. Pasahitzak iOS giltzatakoan gordetzen dira. Tokiko datuak ez dira sinkronizatzen."
+          }
+        }
+      }
+    },
+    "Confirmer le mot de passe": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirmer le mot de passe"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasahitza berretsi"
+          }
+        }
+      }
+    },
+    "Connexion": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioa hasi"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "Connexion au catalogue": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion au catalogue"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katalogorako konexioa"
+          }
+        }
+      }
+    },
+    "Connexion en cours…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion en cours…"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioa hasten…"
+          }
+        }
+      }
+    },
+    "Continuer ma leçon": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuer ma leçon"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire ikasgaiarekin jarraitu"
+          }
+        }
+      }
+    },
+    "Continuez comme ça !": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuez comme ça !"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Segi horrela!"
+          }
+        }
+      }
+    },
+    "Corriger et soumettre à nouveau": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Corriger et soumettre à nouveau"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zuzendu eta berriro bidali"
+          }
+        }
+      }
+    },
+    "Créer mon compte": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Créer mon compte"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire kontua sortu"
+          }
+        }
+      }
+    },
+    "Créer un autre compte": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Créer un autre compte"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beste kontu bat sortu"
+          }
+        }
+      }
+    },
+    "Créez un profil commerçant pour proposer votre lieu et suivre sa validation.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Créez un profil commerçant pour proposer votre lieu et suivre sa validation."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sortu saltzaile-profil bat zure saltokia proposatzeko eta baliozkotzearen jarraipena egiteko."
+          }
+        }
+      }
+    },
+    "De nouvelles leçons seront ajoutées prochainement.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De nouvelles leçons seront ajoutées prochainement."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Laster ikasgai berriak gehituko dira."
+          }
+        }
+      }
+    },
+    "Découvrez le basque et le français ensemble.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Découvrez le basque et le français ensemble."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezagutu euskara eta frantsesa elkarrekin."
+          }
+        }
+      }
+    },
+    "Demande envoyée": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demande envoyée"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eskaera bidalita"
+          }
+        }
+      }
+    },
+    "Demande indisponible ou accès non autorisé.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demande indisponible ou accès non autorisé."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eskaera ez dago erabilgarri edo ez duzu sarbiderik."
+          }
+        }
+      }
+    },
+    "Demande introuvable.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demande introuvable."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ez da eskaera aurkitu."
+          }
+        }
+      }
+    },
+    "Démo": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démo"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demoa"
+          }
+        }
+      }
+    },
+    "Déplacez la carte pour placer votre commerce sous le repère.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplacez la carte pour placer votre commerce sous le repère."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mugitu mapa zure saltokia markaren azpian jartzeko."
+          }
+        }
+      }
+    },
+    "Diminuer l’objectif": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diminuer l’objectif"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helburua txikitu"
+          }
+        }
+      }
+    },
+    "Données et confidentialité": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Données et confidentialité"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datuak eta pribatutasuna"
+          }
+        }
+      }
+    },
+    "Effacer la recherche": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Effacer la recherche"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bilaketa garbitu"
+          }
+        }
+      }
+    },
+    "Elle ne contient pas encore d’exercice.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elle ne contient pas encore d’exercice."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oraindik ez du ariketarik."
+          }
+        }
+      }
+    },
+    "Emplacement": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emplacement"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokapena"
+          }
+        }
+      }
+    },
+    "En attente": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En attente"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zain"
+          }
+        }
+      }
+    },
+    "Enregistrer": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gorde"
+          }
+        }
+      }
+    },
+    "Enregistrer les modifications": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer les modifications"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aldaketak gorde"
+          }
+        }
+      }
+    },
+    "Enregistrer ma progression": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer ma progression"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire aurrerapena gorde"
+          }
+        }
+      }
+    },
+    "Envoyer ma demande": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Envoyer ma demande"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire eskaera bidali"
+          }
+        }
+      }
+    },
+    "Espace commerçant": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Espace commerçant"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saltzailearen gunea"
+          }
+        }
+      }
+    },
+    "Essayez une autre recherche ou désactivez un filtre.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Essayez une autre recherche ou désactivez un filtre."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saiatu beste bilaketa batekin edo desaktibatu iragazki bat."
+          }
+        }
+      }
+    },
+    "Euskara": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Euskara"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Euskara"
+          }
+        }
+      }
+    },
+    "Examiner la demande": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Examiner la demande"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eskaera aztertu"
+          }
+        }
+      }
+    },
+    "Exercice %lld sur %lld": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exercice %lld sur %lld"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld. ariketa, guztira %lld"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "Exercice suivant": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exercice suivant"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hurrengo ariketa"
+          }
+        }
+      }
+    },
+    "Explorer la démonstration": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explorer la démonstration"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demoa arakatu"
+          }
+        }
+      }
+    },
+    "Faites vivre l’euskara dans votre commerce.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Faites vivre l’euskara dans votre commerce."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eman bizia euskarari zure saltokian."
+          }
+        }
+      }
+    },
+    "Fermer": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fermer"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Itxi"
+          }
+        }
+      }
+    },
+    "Fiche indisponible": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiche indisponible"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fitxa ez dago erabilgarri"
+          }
+        }
+      }
+    },
+    "Fiche mise à jour": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiche mise à jour"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fitxa eguneratuta"
+          }
+        }
+      }
+    },
+    "Français": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Français"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frantsesa"
+          }
+        }
+      }
+    },
+    "Horaires": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horaires"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordutegia"
+          }
+        }
+      }
+    },
+    "Ici, on parle euskara": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ici, on parle euskara"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hemen euskaraz hitz egiten dugu"
+          }
+        }
+      }
+    },
+    "Identifiants": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identifiants"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sarbide-datuak"
+          }
+        }
+      }
+    },
+    "Informations": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informations"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informazioa"
+          }
+        }
+      }
+    },
+    "Informations personnelles": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informations personnelles"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informazio pertsonala"
+          }
+        }
+      }
+    },
+    "Informations transmises": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informations transmises"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bidalitako informazioa"
+          }
+        }
+      }
+    },
+    "Itinéraire dans Plans": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Itinéraire dans Plans"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ibilbidea Mapak aplikazioan"
+          }
+        }
+      }
+    },
+    "Je suis": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Je suis"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ni naiz"
+          }
+        }
+      }
+    },
+    "Kafe bat, mesedez": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kafe bat, mesedez"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kafe bat, mesedez"
+          }
+        }
+      }
+    },
+    "Kaixo": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaixo"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaixo"
+          }
+        }
+      }
+    },
+    "Kaixo !": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaixo !"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaixo !"
+          }
+        }
+      }
+    },
+    "Kaixo, %@ !": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaixo, %@ !"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaixo, %@ !"
+          }
+        }
+      }
+    },
+    "Kaixo! Eskerrik asko!": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaixo! Eskerrik asko!"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaixo! Eskerrik asko!"
+          }
+        }
+      }
+    },
+    "L’accès à votre position est facultatif et demandé uniquement lorsque vous touchez le bouton de localisation sur la carte.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’accès à votre position est facultatif et demandé uniquement lorsque vous touchez le bouton de localisation sur la carte."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokapena partekatzea aukerakoa da; mapako kokapen-botoia ukitzean soilik eskatzen da."
+          }
+        }
+      }
+    },
+    "La fiche publiée sera mise à jour immédiatement.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La fiche publiée sera mise à jour immédiatement."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Argitaratutako fitxa berehala eguneratuko da."
+          }
+        }
+      }
+    },
+    "La progression est enregistrée sur cet appareil.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La progression est enregistrée sur cet appareil."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aurrerapena gailu honetan gordetzen da."
+          }
+        }
+      }
+    },
+    "La traduction basque de l’interface est partielle dans ce prototype. Les leçons proposent le vocabulaire dans les deux langues.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La traduction basque de l’interface est partielle dans ce prototype. Les leçons proposent le vocabulaire dans les deux langues."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interfazea euskaraz edo frantsesez erabil dezakezu. Ikasgaiek bi hizkuntzetako hiztegia eskaintzen dute."
+          }
+        }
+      }
+    },
+    "Langue": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Langue"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hizkuntza"
+          }
+        }
+      }
+    },
+    "Langue de l’interface": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Langue de l’interface"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interfazearen hizkuntza"
+          }
+        }
+      }
+    },
+    "Le mot du jour": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le mot du jour"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eguneko hitza"
+          }
+        }
+      }
+    },
+    "Le prototype ne dispose pas de serveur d’authentification. La récupération par e-mail n’est donc pas encore disponible.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le prototype ne dispose pas de serveur d’authentification. La récupération par e-mail n’est donc pas encore disponible."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tokiko kontuen pasahitza ezin da oraindik posta elektronikoz berreskuratu."
+          }
+        }
+      }
+    },
+    "Les leçons du niveau %@ seront ajoutées après le prototype A1.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les leçons du niveau %@ seront ajoutées après le prototype A1."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ mailako ikasgaiak A1 prototipoaren ondoren gehituko dira."
+          }
+        }
+      }
+    },
+    "Les Mintzakide": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les Mintzakide"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mintzakideak"
+          }
+        }
+      }
+    },
+    "Les modifications sont visibles sur la carte.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les modifications sont visibles sur la carte."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aldaketak mapan ikus daitezke."
+          }
+        }
+      }
+    },
+    "Les mots à retenir": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les mots à retenir"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gogoratzeko hitzak"
+          }
+        }
+      }
+    },
+    "Les quatre commerces initiaux sont fictifs et servent à la démonstration. Le fond de carte et les itinéraires utilisent les services Apple et peuvent nécessiter Internet.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les quatre commerces initiaux sont fictifs et servent à la démonstration. Le fond de carte et les itinéraires utilisent les services Apple et peuvent nécessiter Internet."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hasierako lau saltokiak fikziozkoak dira, demorako. Mapak eta ibilbideek Appleren zerbitzuak erabiltzen dituzte eta Internet behar dezakete."
+          }
+        }
+      }
+    },
+    "Lieu fictif · Illustration d’ambiance générée.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lieu fictif · Illustration d’ambiance générée."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fikziozko lekua · Sortutako giro-irudia."
+          }
+        }
+      }
+    },
+    "Lieux « Démo » fictifs. Illustrations d’ambiance.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lieux « Démo » fictifs. Illustrations d’ambiance."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fikziozko demo-lekuak. Giro-irudiak."
+          }
+        }
+      }
+    },
+    "Lun–sam · 9 h–18 h": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lun–sam · 9 h–18 h"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Al–lr · 09:00–18:00"
+          }
+        }
+      }
+    },
+    "Ma progression": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ma progression"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire aurrerapena"
+          }
+        }
+      }
+    },
+    "Meilleur résultat enregistré sur cet iPhone.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meilleur résultat enregistré sur cet iPhone."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone honetan gordetako emaitzarik onena."
+          }
+        }
+      }
+    },
+    "Meilleur score conservé · %lld XP au total": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meilleur score conservé · %lld XP au total"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puntuaziorik onena gordeta · %lld XP guztira"
+          }
+        }
+      }
+    },
+    "Mes commerces publiés": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mes commerces publiés"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire saltoki argitaratuak"
+          }
+        }
+      }
+    },
+    "Mes favoris": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mes favoris"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire gogokoak"
+          }
+        }
+      }
+    },
+    "Mes meilleurs scores": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mes meilleurs scores"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire puntuaziorik onenak"
+          }
+        }
+      }
+    },
+    "Mes réussites": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mes réussites"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire lorpenak"
+          }
+        }
+      }
+    },
+    "Message au commerçant": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Message au commerçant"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saltzailearentzako mezua"
+          }
+        }
+      }
+    },
+    "Mintza": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mintza"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mintza"
+          }
+        }
+      }
+    },
+    "MINTZA": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MINTZA"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MINTZA"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "Mise à jour de fiche": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mise à jour de fiche"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fitxa eguneratzea"
+          }
+        }
+      }
+    },
+    "Mode invité : ce résultat n’est pas enregistré.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mode invité : ce résultat n’est pas enregistré."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gonbidatu modua: emaitza hau ez da gordetzen."
+          }
+        }
+      }
+    },
+    "Modifier l’emplacement": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifier l’emplacement"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokapena aldatu"
+          }
+        }
+      }
+    },
+    "Modifier mon profil": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifier mon profil"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire profila aldatu"
+          }
+        }
+      }
+    },
+    "Mon commerce": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mon commerce"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire saltokia"
+          }
+        }
+      }
+    },
+    "Mon espace commerçant": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mon espace commerçant"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire saltzaile-gunea"
+          }
+        }
+      }
+    },
+    "Mon objectif": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mon objectif"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire helburua"
+          }
+        }
+      }
+    },
+    "Mon rythme": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mon rythme"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire erritmoa"
+          }
+        }
+      }
+    },
+    "Mot de passe": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mot de passe"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasahitza"
+          }
+        }
+      }
+    },
+    "Mot de passe oublié ?": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mot de passe oublié ?"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasahitza ahaztu duzu?"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "Nom": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abizena"
+          }
+        }
+      }
+    },
+    "Nom du commerce": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom du commerce"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saltokiaren izena"
+          }
+        }
+      }
+    },
+    "Nouveau référencement": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveau référencement"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saltoki berria"
+          }
+        }
+      }
+    },
+    "Numéro de téléphone": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Numéro de téléphone"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Telefono-zenbakia"
+          }
+        }
+      }
+    },
+    "Numéro et rue": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Numéro et rue"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zenbakia eta kalea"
+          }
+        }
+      }
+    },
+    "Oso ongi !": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oso ongi !"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oso ongi !"
+          }
+        }
+      }
+    },
+    "ou avec votre adresse e-mail": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ou avec votre adresse e-mail"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "edo zure helbide elektronikoarekin"
+          }
+        }
+      }
+    },
+    "Ouvrez le profil Administrateur depuis les accès de démonstration.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrez le profil Administrateur depuis les accès de démonstration."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ireki administratzaile-profila demoaren sarbideetatik."
+          }
+        }
+      }
+    },
+    "Ouvrez une fiche depuis la carte et touchez le cœur pour la retrouver ici.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrez une fiche depuis la carte et touchez le cœur pour la retrouver ici."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ireki fitxa bat mapan eta ukitu bihotza hemen aurkitzeko."
+          }
+        }
+      }
+    },
+    "Paramètres": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paramètres"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezarpenak"
+          }
+        }
+      }
+    },
+    "Position : %@, %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Position : %@, %@"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokapena: %@, %@"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "Position choisie : %@, %@": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Position choisie : %@, %@"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hautatutako kokapena: %@, %@"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "Prénom": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prénom"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izena"
+          }
+        }
+      }
+    },
+    "Profil": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profila"
+          }
+        }
+      }
+    },
+    "Profil de démonstration": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil de démonstration"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demo-profila"
+          }
+        }
+      }
+    },
+    "Publication après validation. L’adresse ne déplace pas automatiquement le repère sur la carte.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Publication après validation. L’adresse ne déplace pas automatiquement le repère sur la carte."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baliozkotu ondoren argitaratuko da. Helbideak ez du mapako marka automatikoki mugitzen."
+          }
+        }
+      }
+    },
+    "Quelques mots aujourd’hui.\nUne conversation demain.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quelques mots aujourd’hui.\nUne conversation demain."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hitz batzuk gaur.\nElkarrizketa bat bihar."
+          }
+        }
+      }
+    },
+    "Question %lld sur %lld": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Question %lld sur %lld"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld. galdera, guztira %lld"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "Question suivante": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Question suivante"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hurrengo galdera"
+          }
+        }
+      }
+    },
+    "Quitter": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Irten"
+          }
+        }
+      }
+    },
+    "Quitter cette tentative ? Les réponses en cours ne seront pas enregistrées.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter cette tentative ? Les réponses en cours ne seront pas enregistrées."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saiakera honetatik irten? Uneko erantzunak ez dira gordeko."
+          }
+        }
+      }
+    },
+    "Quitter le quiz": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter le quiz"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Galdetegitik irten"
+          }
+        }
+      }
+    },
+    "Quitter le quiz ? Les réponses de cette tentative ne seront pas enregistrées.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter le quiz ? Les réponses de cette tentative ne seront pas enregistrées."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Galdetegitik irten? Saiakera honetako erantzunak ez dira gordeko."
+          }
+        }
+      }
+    },
+    "Quitter les exercices": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter les exercices"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ariketetatik irten"
+          }
+        }
+      }
+    },
+    "Recommencer": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommencer"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Berriro hasi"
+          }
+        }
+      }
+    },
+    "Recommencer les associations": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommencer les associations"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loturak berriro hasi"
+          }
+        }
+      }
+    },
+    "Réessayer": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réessayer"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Berriro saiatu"
+          }
+        }
+      }
+    },
+    "Réessayer la sauvegarde": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réessayer la sauvegarde"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Berriro gordetzen saiatu"
+          }
+        }
+      }
+    },
+    "Référencer mon commerce": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Référencer mon commerce"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire saltokia erregistratu"
+          }
+        }
+      }
+    },
+    "Référencer un commerce": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Référencer un commerce"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saltoki bat erregistratu"
+          }
+        }
+      }
+    },
+    "Refusées": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refusées"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baztertuta"
+          }
+        }
+      }
+    },
+    "Refuser": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refuser"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baztertu"
+          }
+        }
+      }
+    },
+    "Rejoindre les Mintzakide": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rejoindre les Mintzakide"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mintzakideekin bat egin"
+          }
+        }
+      }
+    },
+    "Réponse de l’administration": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réponse de l’administration"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administrazioaren erantzuna"
+          }
+        }
+      }
+    },
+    "Reprendre": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reprendre"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jarraitu"
+          }
+        }
+      }
+    },
+    "Retirer %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retirer %@"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ kendu"
+          }
+        }
+      }
+    },
+    "Retirer %@ de la carte ?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retirer %@ de la carte ?"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ mapatik kendu?"
+          }
+        }
+      }
+    },
+    "Retirer de la carte": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retirer de la carte"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mapatik kendu"
+          }
+        }
+      }
+    },
+    "Retirer des favoris": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retirer des favoris"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gogokoetatik kendu"
+          }
+        }
+      }
+    },
+    "Revenir au Pays Basque": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revenir au Pays Basque"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Euskal Herrira itzuli"
+          }
+        }
+      }
+    },
+    "Réviser avant ma visite": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réviser avant ma visite"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bisitatu aurretik berrikusi"
+          }
+        }
+      }
+    },
+    "S’inscrire": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "S’inscrire"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izena eman"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "Se connecter": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se connecter"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioa hasi"
+          }
+        }
+      }
+    },
+    "Se connecter ou essayer la démo": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se connecter ou essayer la démo"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioa hasi edo demoa probatu"
+          }
+        }
+      }
+    },
+    "Se connecter pour garder sa progression": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se connecter pour garder sa progression"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hasi saioa aurrerapena gordetzeko"
+          }
+        }
+      }
+    },
+    "Se déconnecter": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se déconnecter"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioa amaitu"
+          }
+        }
+      }
+    },
+    "Se déconnecter ?": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se déconnecter ?"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioa amaitu?"
+          }
+        }
+      }
+    },
+    "Si vous avez oublié votre mot de passe, vous pouvez explorer les profils de démonstration ou créer un autre compte local. Votre ancien compte et sa progression restent conservés.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Si vous avez oublié votre mot de passe, vous pouvez explorer les profils de démonstration ou créer un autre compte local. Votre ancien compte et sa progression restent conservés."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasahitza ahaztu baduzu, demo-profilak arakatu edo beste tokiko kontu bat sor dezakezu. Lehengo kontua eta haren aurrerapena gordeta jarraituko dute."
+          }
+        }
+      }
+    },
+    "Statut": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statut"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Egoera"
+          }
+        }
+      }
+    },
+    "Stockage local": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stockage local"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tokiko biltegiratzea"
+          }
+        }
+      }
+    },
+    "Suivi de demande": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suivi de demande"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eskaeraren jarraipena"
+          }
+        }
+      }
+    },
+    "Suivi de mes demandes": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suivi de mes demandes"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire eskaeren jarraipena"
+          }
+        }
+      }
+    },
+    "Téléphone": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Téléphone"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Telefonoa"
+          }
+        }
+      }
+    },
+    "Téléphone (facultatif)": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Téléphone (facultatif)"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Telefonoa (aukerakoa)"
+          }
+        }
+      }
+    },
+    "Terminé": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminé"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amaituta"
+          }
+        }
+      }
+    },
+    "Terminé · %lld/%lld": {
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminé · %lld/%lld"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amaituta · %lld/%lld"
+          }
+        }
+      },
+      "extractionState": "manual"
+    },
+    "Terminé · %lld/5": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminé · %lld/5"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Amaituta · %lld/5"
+          }
+        }
+      }
+    },
+    "Terminer la leçon": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminer la leçon"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikasgaia amaitu"
+          }
+        }
+      }
+    },
+    "Touchez les groupes dans l’ordre. Touchez un groupe choisi pour le retirer.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Touchez les groupes dans l’ordre. Touchez un groupe choisi pour le retirer."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukitu taldeak ordenan. Hautatutako talde bat kentzeko, ukitu berriro."
+          }
+        }
+      }
+    },
+    "Touchez un élément à gauche, puis son correspondant à droite.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Touchez un élément à gauche, puis son correspondant à droite."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukitu ezkerreko elementu bat eta, ondoren, eskuineko dagokiona."
+          }
+        }
+      }
+    },
+    "Tout effacer": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tout effacer"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dena garbitu"
+          }
+        }
+      }
+    },
+    "Un café, s’il vous plaît": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un café, s’il vous plaît"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kafe bat, mesedez"
+          }
+        }
+      }
+    },
+    "Un lieu, une ville…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un lieu, une ville…"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leku bat, hiri bat…"
+          }
+        }
+      }
+    },
+    "Un mot utile": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un mot utile"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hitz erabilgarri bat"
+          }
+        }
+      }
+    },
+    "Un motif est requis en cas de refus.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un motif est requis en cas de refus."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baztertzeko arrazoia adierazi behar da."
+          }
+        }
+      }
+    },
+    "Un projet étudiant ISA NUM pour rapprocher l’apprentissage de l’euskara des échanges du quotidien dans le Pays Basque.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un projet étudiant ISA NUM pour rapprocher l’apprentissage de l’euskara des échanges du quotidien dans le Pays Basque."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ISA NUMeko ikasle-proiektua, euskararen ikaskuntza Euskal Herriko eguneroko elkarrizketetara hurbiltzeko."
+          }
+        }
+      }
+    },
+    "Validées": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Validées"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onartuta"
+          }
+        }
+      }
+    },
+    "Valider": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valider"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onartu"
+          }
+        }
+      }
+    },
+    "Vérifier": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vérifier"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Egiaztatu"
+          }
+        }
+      }
+    },
+    "Version": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bertsioa"
+          }
+        }
+      }
+    },
+    "Ville": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ville"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiria"
+          }
+        }
+      }
+    },
+    "Voir mon résultat": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voir mon résultat"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire emaitza ikusi"
+          }
+        }
+      }
+    },
+    "Vos demandes et leurs réponses apparaîtront ici.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vos demandes et leurs réponses apparaîtront ici."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zure eskaerak eta erantzunak hemen agertuko dira."
+          }
+        }
+      }
+    },
+    "Votre demande est en attente de validation. Une fiche déjà publiée reste visible avec ses anciennes informations pendant l’examen.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre demande est en attente de validation. Une fiche déjà publiée reste visible avec ses anciennes informations pendant l’examen."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zure eskaera baliozkotzeko zain dago. Argitaratutako fitxak lehengo datuekin ikusgai jarraituko du azterketa bitartean."
+          }
+        }
+      }
+    },
+    "Votre leçon": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre leçon"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zure ikasgaia"
+          }
+        }
+      }
+    },
+    "Votre phrase apparaîtra ici.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre phrase apparaîtra ici."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zure esaldia hemen agertuko da."
+          }
+        }
+      }
+    },
+    "Votre profil actuel est apprenant. Déconnectez-vous dans Profil pour utiliser ou créer un compte commerçant.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre profil actuel est apprenant. Déconnectez-vous dans Profil pour utiliser ou créer un compte commerçant."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zure profila ikaslearena da. Amaitu saioa Profilean saltzaile-kontu bat erabiltzeko edo sortzeko."
+          }
+        }
+      }
+    },
+    "Vous pouvez suivre son état dans votre espace commerçant.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vous pouvez suivre son état dans votre espace commerçant."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Egoeraren jarraipena zure saltzaile-gunean egin dezakezu."
+          }
+        }
+      }
+    },
+    "vous@exemple.fr": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vous@exemple.fr"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "vous@exemple.fr"
+          }
+        }
+      }
+    },
+    "Le mot de passe doit contenir au moins 8 caractères.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le mot de passe doit contenir au moins 8 caractères."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasahitzak gutxienez 8 karaktere izan behar ditu."
+          }
+        }
+      }
+    },
+    "Le format des données reçues ne correspond pas à celui de l’application.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le format des données reçues ne correspond pas à celui de l’application."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jasotako datuen formatua ez dator bat aplikazioaren formatuarekin."
+          }
+        }
+      }
+    },
+    "Les identifiants de connexion Google sont incomplets.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les identifiants de connexion Google sont incomplets."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google-ko sarbide-datuak osatu gabe daude."
+          }
+        }
+      }
+    },
+    "Continuer avec Google": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuer avec Google"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google-rekin jarraitu"
+          }
+        }
+      }
+    },
+    "Session expirée. Reconnectez-vous.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session expirée. Reconnectez-vous."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioa iraungi da. Hasi saioa berriro."
+          }
+        }
+      }
+    },
+    "Ce rôle ne peut pas être créé par inscription.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce rôle ne peut pas être créé par inscription."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezin da rol hori hautatu izena ematean."
+          }
+        }
+      }
+    },
+    "Accès réservé à l’administration.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accès réservé à l’administration."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administraziorako sarbide mugatua."
+          }
+        }
+      }
+    },
+    "Impossible de fermer la session sur cet appareil.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de fermer la session sur cet appareil."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezin da saioa amaitu gailu honetan."
+          }
+        }
+      }
+    },
+    "Accès réservé à l’administration de démonstration.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accès réservé à l’administration de démonstration."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demoaren administraziorako sarbide mugatua."
+          }
+        }
+      }
+    },
+    "Faux": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Faux"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gezurra"
+          }
+        }
+      }
+    },
+    "Compte introuvable.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Compte introuvable."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ez da kontua aurkitu."
+          }
+        }
+      }
+    },
+    "À débloquer": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À débloquer"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desblokeatzeko"
+          }
+        }
+      }
+    },
+    "Sans faute": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sans faute"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Akatsik gabe"
+          }
+        }
+      }
+    },
+    "Les mots de passe ne correspondent pas.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les mots de passe ne correspondent pas."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasahitzak ez datoz bat."
+          }
+        }
+      }
+    },
+    "Adresse e-mail ou mot de passe incorrect.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adresse e-mail ou mot de passe incorrect."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helbide elektronikoa edo pasahitza okerra da."
+          }
+        }
+      }
+    },
+    "Dans les commerces": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dans les commerces"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saltokietan"
+          }
+        }
+      }
+    },
+    "Connexion impossible. Réessayez.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion impossible. Réessayez."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezin da saioa hasi. Saiatu berriro."
+          }
+        }
+      }
+    },
+    "Publiés": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Publiés"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Argitaratuta"
+          }
+        }
+      }
+    },
+    "Trop de tentatives. Réessayez dans une minute.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trop de tentatives. Réessayez dans une minute."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saiakera gehiegi. Saiatu berriro minutu batean."
+          }
+        }
+      }
+    },
+    "Session invalide. Reconnectez-vous.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session invalide. Reconnectez-vous."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saio baliogabea. Hasi saioa berriro."
+          }
+        }
+      }
+    },
+    "La fiche a été retirée de la carte par l’administration.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La fiche a été retirée de la carte par l’administration."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administrazioak fitxa mapatik kendu du."
+          }
+        }
+      }
+    },
+    "Dites votre nom et faites connaissance.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dites votre nom et faites connaissance."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esan zure izena eta ezagutu elkar."
+          }
+        }
+      }
+    },
+    "Le retour de connexion Google n’est pas encore configuré.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le retour de connexion Google n’est pas encore configuré."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google-ko saioaren itzulera ez dago oraindik konfiguratuta."
+          }
+        }
+      }
+    },
+    "Refusée": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refusée"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baztertuta"
+          }
+        }
+      }
+    },
+    "La liste des leçons reçue est invalide.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La liste des leçons reçue est invalide."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jasotako ikasgai-zerrenda baliogabea da."
+          }
+        }
+      }
+    },
+    "Le serveur a renvoyé un rôle inconnu.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le serveur a renvoyé un rôle inconnu."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zerbitzariak rol ezezagun bat itzuli du."
+          }
+        }
+      }
+    },
+    "Ce mode de connexion n’est pas encore configuré.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce mode de connexion n’est pas encore configuré."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioa hasteko modu hau ez dago oraindik konfiguratuta."
+          }
+        }
+      }
+    },
+    "Une leçon réussie sans erreur !": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une leçon réussie sans erreur !"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikasgai bat akatsik gabe gaindituta!"
+          }
+        }
+      }
+    },
+    "Leçons": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leçons"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikasgaiak"
+          }
+        }
+      }
+    },
+    "Indiquez un motif de refus pour le commerçant.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indiquez un motif de refus pour le commerçant."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adierazi saltzailearentzako baztertze-arrazoia."
+          }
+        }
+      }
+    },
+    "Premiers mots": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premiers mots"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lehen hitzak"
+          }
+        }
+      }
+    },
+    "Administrateur": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administrateur"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administratzailea"
+          }
+        }
+      }
+    },
+    "Renseignez votre nom et votre prénom.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renseignez votre nom et votre prénom."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idatzi zure izena eta abizena."
+          }
+        }
+      }
+    },
+    "Impossible d’ouvrir la connexion. Réessayez.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible d’ouvrir la connexion. Réessayez."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezin da saioa hasteko leihoa ireki. Saiatu berriro."
+          }
+        }
+      }
+    },
+    "Autour de moi": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autour de moi"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nire inguruan"
+          }
+        }
+      }
+    },
+    "Preuve de connexion invalide ou expirée.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preuve de connexion invalide ou expirée."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioaren egiaztagiria baliogabea da edo iraungi da."
+          }
+        }
+      }
+    },
+    "Ce commerce est déjà publié. Utilisez la modification de fiche.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce commerce est déjà publié. Utilisez la modification de fiche."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saltokia argitaratuta dago. Erabili fitxa aldatzeko aukera."
+          }
+        }
+      }
+    },
+    "Google n’a pas fourni de preuve de connexion.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google n’a pas fourni de preuve de connexion."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Google-k ez du saioa hasteko egiaztagiririk eman."
+          }
+        }
+      }
+    },
+    "Votre premier point en euskara.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre premier point en euskara."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zure lehen puntua euskaraz."
+          }
+        }
+      }
+    },
+    "Reconnectez-vous.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reconnectez-vous."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hasi saioa berriro."
+          }
+        }
+      }
+    },
+    "Impossible de lire la session. Déverrouillez l’iPhone et réessayez.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de lire la session. Déverrouillez l’iPhone et réessayez."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezin da saioa irakurri. Desblokeatu iPhonea eta saiatu berriro."
+          }
+        }
+      }
+    },
+    "La localisation est désactivée. Vous pouvez toujours explorer la carte, ou autoriser Mintza dans les réglages iOS.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La localisation est désactivée. Vous pouvez toujours explorer la carte, ou autoriser Mintza dans les réglages iOS."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokapena desaktibatuta dago. Mapa araka dezakezu edo Mintzari baimena eman iOS ezarpenetan."
+          }
+        }
+      }
+    },
+    "La connexion nécessite une adresse de serveur HTTPS valide.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La connexion nécessite une adresse de serveur HTTPS valide."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konexioak baliozko HTTPS zerbitzari-helbidea behar du."
+          }
+        }
+      }
+    },
+    "Placez le commerce dans le secteur Bayonne–Anglet–Biarritz (latitude 43,30 à 43,65 ; longitude −1,75 à −1,25).": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Placez le commerce dans le secteur Bayonne–Anglet–Biarritz (latitude 43,30 à 43,65 ; longitude −1,75 à −1,25)."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kokatu saltokia Baiona–Angelu–Miarritze eremuan (latitudea 43,30–43,65; longitudea −1,75–−1,25)."
+          }
+        }
+      }
+    },
+    "Un profil commerçant est nécessaire.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un profil commerçant est nécessaire."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saltzaile-profila behar da."
+          }
+        }
+      }
+    },
+    "Restaurant": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurant"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatetxea"
+          }
+        }
+      }
+    },
+    "Les exercices reçus ne correspondent pas à cette leçon.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les exercices reçus ne correspondent pas à cette leçon."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jasotako ariketak ez dagozkio ikasgai honi."
+          }
+        }
+      }
+    },
+    "Impossible de lire les identifiants sur cet appareil.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de lire les identifiants sur cet appareil."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezin dira sarbide-datuak irakurri gailu honetan."
+          }
+        }
+      }
+    },
+    "Préparez votre première commande en euskara.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Préparez votre première commande en euskara."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prestatu zure lehen eskaera euskaraz."
+          }
+        }
+      }
+    },
+    "La fiche a été retirée. Refusez cette demande devenue obsolète.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La fiche a été retirée. Refusez cette demande devenue obsolète."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fitxa kendu da. Baztertu zaharkitutako eskaera hau."
+          }
+        }
+      }
+    },
+    "Chaque échange vous fait avancer.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chaque échange vous fait avancer."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elkarrizketa bakoitzak aurrera egiten laguntzen dizu."
+          }
+        }
+      }
+    },
+    "Les premiers mots pour ouvrir la conversation.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les premiers mots pour ouvrir la conversation."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elkarrizketa hasteko lehen hitzak."
+          }
+        }
+      }
+    },
+    "Cette demande a déjà été traitée.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette demande a déjà été traitée."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eskaera hau dagoeneko izapidetu da."
+          }
+        }
+      }
+    },
+    "Vos premiers échanges": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vos premiers échanges"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zure lehen elkarrizketak"
+          }
+        }
+      }
+    },
+    "Score invalide.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Score invalide."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puntuazio baliogabea."
+          }
+        }
+      }
+    },
+    "Une demande est déjà en attente pour cette fiche.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une demande est déjà en attente pour cette fiche."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fitxa honen eskaera bat zain dago dagoeneko."
+          }
+        }
+      }
+    },
+    "Se présenter": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se présenter"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Norbere burua aurkeztu"
+          }
+        }
+      }
+    },
+    "Impossible de joindre Mintza. Vérifiez l’accès au Wi-Fi de la fac ou au VPN, ainsi que l’autorisation Réseau local dans les réglages de l’iPhone.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de joindre Mintza. Vérifiez l’accès au Wi-Fi de la fac ou au VPN, ainsi que l’autorisation Réseau local dans les réglages de l’iPhone."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezin da Mintzara konektatu. Egiaztatu unibertsitateko Wi-Fi edo VPN konexioa eta iPhonearen Tokiko sarea baimena."
+          }
+        }
+      }
+    },
+    "Traitez la demande en attente avant de modifier cette fiche.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Traitez la demande en attente avant de modifier cette fiche."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izapidetu zain dagoen eskaera fitxa aldatu aurretik."
+          }
+        }
+      }
+    },
+    "Un compte utilise déjà cette adresse sur cet appareil.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un compte utilise déjà cette adresse sur cet appareil."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gailu honetako kontu batek helbide hau erabiltzen du dagoeneko."
+          }
+        }
+      }
+    },
+    "Au café": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Au café"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kafetegian"
+          }
+        }
+      }
+    },
+    "Fiche introuvable ou accès non autorisé.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fiche introuvable ou accès non autorisé."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ez da fitxa aurkitu edo ez duzu sarbiderik."
+          }
+        }
+      }
+    },
+    "Validée": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Validée"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onartuta"
+          }
+        }
+      }
+    },
+    "Culture": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Culture"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kultura"
+          }
+        }
+      }
+    },
+    "Cette fiche ne peut pas être modifiée par votre compte.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette fiche ne peut pas être modifiée par votre compte."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zure kontuak ezin du fitxa hau aldatu."
+          }
+        }
+      }
+    },
+    "Les salutations": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les salutations"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agurrak"
+          }
+        }
+      }
+    },
+    "Café": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Café"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kafetegia"
+          }
+        }
+      }
+    },
+    "Boutique": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boutique"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Denda"
+          }
+        }
+      }
+    },
+    "Choisissez un emplacement sur la carte.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez un emplacement sur la carte."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hautatu kokapen bat mapan."
+          }
+        }
+      }
+    },
+    "Vrai": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vrai"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Egia"
+          }
+        }
+      }
+    },
+    "Le trousseau est indisponible. Réessayez après avoir déverrouillé l’appareil.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le trousseau est indisponible. Réessayez après avoir déverrouillé l’appareil."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giltzatakoa ez dago erabilgarri. Desblokeatu gailua eta saiatu berriro."
+          }
+        }
+      }
+    },
+    "Le serveur a changé. Reconnectez-vous.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le serveur a changé. Reconnectez-vous."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zerbitzaria aldatu da. Hasi saioa berriro."
+          }
+        }
+      }
+    },
+    "Le basque, à votre rythme": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le basque, à votre rythme"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Euskara, zure erritmoan"
+          }
+        }
+      }
+    },
+    "Le service de connexion est indisponible. Réessayez.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le service de connexion est indisponible. Réessayez."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioa hasteko zerbitzua ez dago erabilgarri. Saiatu berriro."
+          }
+        }
+      }
+    },
+    "Connexion expirée. Recommencez.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion expirée. Recommencez."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioa hasteko denbora amaitu da. Hasi berriro."
+          }
+        }
+      }
+    },
+    "Votre position est indisponible pour le moment. La carte du BAB reste accessible.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre position est indisponible pour le moment. La carte du BAB reste accessible."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zure kokapena ez dago erabilgarri une honetan. BABeko mapa erabil dezakezu."
+          }
+        }
+      }
+    },
+    "Complétez le nom, l’adresse, la ville, les horaires et les informations de pratique.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complétez le nom, l’adresse, la ville, les horaires et les informations de pratique."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bete izena, helbidea, hiria, ordutegia eta praktikatzeko informazioa."
+          }
+        }
+      }
+    },
+    "Motif ou message": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Motif ou message"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrazoia edo mezua"
+          }
+        }
+      }
+    },
+    "Sauvegarde désactivée pour préserver les données illisibles. Consultez le guide du projet.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sauvegarde désactivée pour préserver les données illisibles. Consultez le guide du projet."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gordetzea desaktibatuta dago irakurri ezin diren datuak babesteko. Kontsultatu proiektuaren gida."
+          }
+        }
+      }
+    },
+    "Renseignez votre prénom, votre nom et une adresse e-mail valide.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renseignez votre prénom, votre nom et une adresse e-mail valide."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idatzi zure izena, abizena eta baliozko helbide elektronikoa."
+          }
+        }
+      }
+    },
+    "Leçons courtes": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leçons courtes"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikasgai laburrak"
+          }
+        }
+      }
+    },
+    "Impossible de conserver la session sur cet appareil.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de conserver la session sur cet appareil."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezin da saioa gailu honetan gorde."
+          }
+        }
+      }
+    },
+    "Mode démonstration": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mode démonstration"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demo modua"
+          }
+        }
+      }
+    },
+    "Le serveur n’a pas répondu correctement.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le serveur n’a pas répondu correctement."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zerbitzariak ez du behar bezala erantzun."
+          }
+        }
+      }
+    },
+    "Jours actifs": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jours actifs"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Egun aktiboak"
+          }
+        }
+      }
+    },
+    "Impossible d’enregistrer les identifiants dans le trousseau.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible d’enregistrer les identifiants dans le trousseau."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezin dira sarbide-datuak giltzatakoan gorde."
+          }
+        }
+      }
+    },
+    "Le serveur n’a pas fourni de réponse HTTP.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le serveur n’a pas fourni de réponse HTTP."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zerbitzariak ez du HTTP erantzunik eman."
+          }
+        }
+      }
+    },
+    "Votre espace Mintza": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre espace Mintza"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zure Mintza gunea"
+          }
+        }
+      }
+    },
+    "La connexion est momentanément indisponible.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La connexion est momentanément indisponible."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saioa hasteko zerbitzua ez dago erabilgarri une honetan."
+          }
+        }
+      }
+    },
+    "L’interface est disponible en français et en basque. Les exercices conservent leur langue pédagogique.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’interface est disponible en français et en basque. Les exercices conservent leur langue pédagogique."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interfazea frantsesez eta euskaraz erabil daiteke. Ariketek ikaskuntzarako hizkuntza mantentzen dute."
+          }
+        }
+      }
+    },
+    "Pratiquer": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pratiquer"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Praktikatu"
+          }
+        }
+      }
+    },
+    "Accueil en euskara": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accueil en euskara"
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hasiera euskaraz"
+          }
+        }
+      }
+    },
+    "Impossible de vérifier la connexion.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible de vérifier la connexion."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezin da konexioa egiaztatu."
+          }
+        }
+      }
+    },
+    "Les données locales ne peuvent pas être lues. Elles sont conservées sans modification.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les données locales ne peuvent pas être lues. Elles sont conservées sans modification."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ezin dira tokiko datuak irakurri. Aldatu gabe gordetzen dira."
+          }
+        }
+      }
+    },
+    "Le serveur a répondu avec l’erreur %lld.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le serveur a répondu avec l’erreur %lld."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zerbitzariak %lld errorea itzuli du."
+          }
+        }
+      }
+    },
+    "Le contenu de l’exercice %lld est incomplet. Signalez-le à l’équipe Mintza.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le contenu de l’exercice %lld est incomplet. Signalez-le à l’équipe Mintza."
+          }
+        },
+        "eu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld. ariketaren edukia osatu gabe dago. Jakinarazi Mintza taldeari."
+          }
+        }
+      }
     }
   },
-  "version" : "1.2"
+  "version": "1.2"
 }

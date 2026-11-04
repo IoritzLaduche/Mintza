@@ -43,9 +43,9 @@ struct LigneDemande: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             Text(demande.commerce.nom).font(.headline)
-            Text(demande.miseAJour ? "Mise à jour de fiche" : "Nouveau référencement").font(.caption).foregroundStyle(.secondary)
+            Text(LocalizedStringKey(demande.miseAJour ? "Mise à jour de fiche" : "Nouveau référencement")).font(.caption).foregroundStyle(.secondary)
             HStack {
-                Label(demande.statut.rawValue, systemImage: demande.statut == .attente ? "clock" : demande.statut == .validee ? "checkmark.circle" : "xmark.circle")
+                Label(LocalizedStringKey(demande.statut.rawValue), systemImage: demande.statut == .attente ? "clock" : demande.statut == .validee ? "checkmark.circle" : "xmark.circle")
                     .foregroundStyle(demande.statut == .refusee ? Color.rougeMintza : .vertMintza)
                 Spacer()
                 Text(demande.date, style: .date).foregroundStyle(.secondary)
@@ -118,7 +118,7 @@ struct VueFormulaireCommerce: View {
                 ChampMintza(titre: "Nom du commerce") { TextField("Nom du commerce", text: $commerce.nom) }
                 ChampMintza(titre: "Catégorie") {
                     Picker("Catégorie", selection: $commerce.categorie) {
-                        ForEach(CategorieCommerce.allCases) { categorie in Label(categorie.rawValue, systemImage: categorie.icone).tag(categorie) }
+                        ForEach(CategorieCommerce.allCases) { categorie in Label(LocalizedStringKey(categorie.rawValue), systemImage: categorie.icone).tag(categorie) }
                     }.labelsHidden().frame(maxWidth: .infinity, alignment: .leading)
                 }
                 ChampMintza(titre: "Adresse") { TextField("Numéro et rue", text: $commerce.adresse).textContentType(.streetAddressLine1) }
@@ -133,7 +133,7 @@ struct VueFormulaireCommerce: View {
                 Button { carteOuverte = true } label: {
                     HStack {
                         Image(systemName: "mappin.and.ellipse")
-                        Text(emplacementChoisi ? "Modifier l’emplacement" : "Choisir sur la carte").font(.subheadline.weight(.medium))
+                        Text(LocalizedStringKey(emplacementChoisi ? "Modifier l’emplacement" : "Choisir sur la carte")).font(.subheadline.weight(.medium))
                         Spacer()
                         Image(systemName: emplacementChoisi ? "checkmark.circle.fill" : "chevron.right")
                     }.carteMintza()
@@ -149,9 +149,9 @@ struct VueFormulaireCommerce: View {
                         else { try magasin.soumettre(commerce, miseAJour: miseAJour) }
                         envoye = true
                     } catch { erreur = error.localizedDescription }
-                } label: { Text(modificationAdmin ? "Enregistrer les modifications" : "Envoyer ma demande").frame(maxWidth: .infinity) }
+                } label: { Text(LocalizedStringKey(modificationAdmin ? "Enregistrer les modifications" : "Envoyer ma demande")).frame(maxWidth: .infinity) }
                     .buttonStyle(StyleBoutonCapsulePrincipal()).disabled(envoye)
-                Text(modificationAdmin ? "La fiche publiée sera mise à jour immédiatement." : "Publication après validation. L’adresse ne déplace pas automatiquement le repère sur la carte.")
+                Text(LocalizedStringKey(modificationAdmin ? "La fiche publiée sera mise à jour immédiatement." : "Publication après validation. L’adresse ne déplace pas automatiquement le repère sur la carte."))
                     .font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center).frame(maxWidth: .infinity)
             }.padding(22).frame(maxWidth: 620).frame(maxWidth: .infinity)
         }.scrollDismissesKeyboard(.interactively).background(Color.fondMintza)
@@ -168,9 +168,9 @@ struct VueFormulaireCommerce: View {
                 }
             }
             .erreurMintza($erreur)
-            .alert(modificationAdmin ? "Fiche mise à jour" : "Demande envoyée", isPresented: $envoye) {
+            .alert(LocalizedStringKey(modificationAdmin ? "Fiche mise à jour" : "Demande envoyée"), isPresented: $envoye) {
                 Button("Terminé") { dismiss() }
-            } message: { Text(modificationAdmin ? "Les modifications sont visibles sur la carte." : "Vous pouvez suivre son état dans votre espace commerçant.") }
+            } message: { Text(LocalizedStringKey(modificationAdmin ? "Les modifications sont visibles sur la carte." : "Vous pouvez suivre son état dans votre espace commerçant.")) }
     }
 }
 

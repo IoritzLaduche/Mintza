@@ -1,8 +1,12 @@
 import SwiftUI
+import GoogleSignInSwift
 
 struct VueConnexion: View {
     var racine = false
     @EnvironmentObject private var magasin: MagasinMintza
+    @Environment(\.colorScheme) private var apparence
+    @StateObject private var connexionExterne = ConnexionExterne()
+    @State private var connexionEnCours = false
     @State private var adresseEmail = ""
     @State private var motDePasse = ""
     @State private var erreur: String?
@@ -15,6 +19,7 @@ struct VueConnexion: View {
                         VueEnTete()
                         TitreMintza(titre: "Votre espace Mintza", sousTitre: "Chaque échange vous fait avancer.")
                         IllustrationMintza(nom: "MintzaAccueil", hauteur: 150).clipShape(RoundedRectangle(cornerRadius: 20))
+                        optionsConnexionExterne
                         ChampMintza(titre: "Adresse e-mail") {
                             TextField("vous@exemple.fr", text: $adresseEmail).keyboardType(.emailAddress).textInputAutocapitalization(.never).autocorrectionDisabled().textContentType(.username)
                         }
@@ -36,20 +41,79 @@ struct VueConnexion: View {
                                     do { try magasin.ouvrirDemo(role) } catch { erreur = error.localizedDescription }
                                 } label: {
                                     HStack {
-                                        Label(role.rawValue, systemImage: role == .administrateur ? "checkmark.shield" : role == .commercant ? "storefront" : "graduationcap")
+                                        Label(LocalizedStringKey(role.rawValue), systemImage: role == .administrateur ? "checkmark.shield" : role == .commercant ? "storefront" : "graduationcap")
                                         Spacer()
                                         Image(systemName: "chevron.right").font(.caption)
                                     }.font(.subheadline).frame(minHeight: 44)
                                 }
                             }
                         }.carteMintza()
-                        Text("Prototype local : comptes et progression restent sur cet appareil.").font(.caption).foregroundStyle(.secondary)
+                        Text("La progression est enregistrée sur cet appareil.").font(.caption).foregroundStyle(.secondary)
                     }.padding(22).frame(maxWidth: 620).frame(maxWidth: .infinity)
                 }.scrollDismissesKeyboard(.interactively).background(Color.fondMintza)
                     .navigationTitle("Connexion").navigationBarTitleDisplayMode(.inline)
                     .toolbar(racine ? .hidden : .visible, for: .navigationBar)
             }
         }.erreurMintza($erreur)
+            .disabled(connexionEnCours)
+    }
+
+    private var optionsConnexionExterne: some View {
+        VStack(spacing: 14) {
+            Button(action: connecterAvecGoogle) {
+                HStack(spacing: 12) {
+                    GoogleSignInButton(scheme: apparence == .dark ? .dark : .light, style: .icon)
+                        { }
+                        .frame(width: 44, height: 44)
+                        .allowsHitTesting(false)
+                        .accessibilityHidden(true)
+                    Text("Continuer avec Google").font(.body.weight(.medium))
+                    Spacer(minLength: 0)
+                }
+                .padding(.horizontal, 8)
+                .frame(maxWidth: .infinity, minHeight: 52)
+                .background(Color.surfaceMintza, in: RoundedRectangle(cornerRadius: 12))
+                .overlay(RoundedRectangle(cornerRadius: 12).stroke(Color.traitMintza))
+            }
+            .buttonStyle(.plain)
+            .frame(height: 52)
+            .disabled(connexionEnCours)
+            .accessibilityIdentifier("connexion-google")
+
+            if connexionEnCours {
+                ProgressView("Connexion en cours…")
+                    .font(.caption)
+                    .accessibilityIdentifier("connexion-chargement")
+            }
+
+            HStack(spacing: 12) {
+                Rectangle().fill(Color.traitMintza).frame(height: 1)
+                Text("ou avec votre adresse e-mail")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .layoutPriority(1)
+                Rectangle().fill(Color.traitMintza).frame(height: 1)
+            }
+            .padding(.top, 4)
+            .accessibilityElement(children: .combine)
+        }
+    }
+
+    private func connecterAvecGoogle() {
+        guard !connexionEnCours else { return }
+        connexionEnCours = true
+        Task {
+            defer { connexionEnCours = false }
+            do {
+                let resultat = try await connexionExterne.connecterGoogle()
+                try magasin.ouvrirSessionDistante(resultat.session, informationsGoogle: resultat.profil)
+                motDePasse = ""
+            } catch {
+                if !ConnexionExterne.estAnnulation(error) { erreur = error.localizedDescription }
+            }
+        }
     }
 }
 

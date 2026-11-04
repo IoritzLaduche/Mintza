@@ -5,6 +5,7 @@ Application iOS d’apprentissage du basque, API PHP et scripts MariaDB.
 - `Mintza/` : application iOS ; ouvrir `Mintza/Mintza.xcodeproj` dans Xcode.
 - `serveur/` : API PHP, exemple de configuration et tests. Voir [les instructions du serveur](serveur/LISEZMOI.md).
 - `database/` : schéma SQL et leçons/exercices. Voir [les instructions SQL](database/README.md).
+- [Configurer la connexion Google](CONNEXION_GOOGLE.md) : clients OAuth, HTTPS, migration SQL et essais.
 
 ## Vérifier le backend localement
 

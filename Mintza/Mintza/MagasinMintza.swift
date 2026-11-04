@@ -1,6 +1,7 @@
 import Foundation
 import Combine
 import Security
+import GoogleSignIn
 
 struct ErreurMintza: LocalizedError {
     let message: String
@@ -54,6 +55,8 @@ final class MagasinMintza: ObservableObject {
     private let fichier: URL
     private let coffre: any CoffreIdentifiants
     private var lectureValide = true
+    private var verificationSession = false
+    private var generationSession = 0
 
     init(fichier: URL? = nil, coffre: (any CoffreIdentifiants)? = nil) {
         self.fichier = fichier ?? URL.documentsDirectory.appendingPathComponent("mintza-v1.json")
@@ -61,6 +64,7 @@ final class MagasinMintza: ObservableObject {
         do {
             if FileManager.default.fileExists(atPath: self.fichier.path) {
                 etat = try JSONDecoder().decode(EtatMintza.self, from: Data(contentsOf: self.fichier))
+                if etat.profils.first(where: { $0.id == etat.session })?.idServeur != nil { etat.session = nil }
             } else { etat = EtatMintza() }
         } catch {
             etat = EtatMintza()
@@ -104,6 +108,7 @@ final class MagasinMintza: ObservableObject {
     }
 
     func inscrire(prenom: String, nom: String, email: String, motDePasse: String, role: RoleMintza) throws {
+        generationSession += 1
         let adresse = email.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
         let prenom = prenom.trimmingCharacters(in: .whitespacesAndNewlines)
         let nom = nom.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -120,6 +125,7 @@ final class MagasinMintza: ObservableObject {
     }
 
     func connecter(email: String, motDePasse: String) throws {
+        generationSession += 1
         let adresse = email.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
         guard let compte = etat.profils.first(where: { $0.email == adresse && !$0.demonstration }),
               try coffre.lire(pour: compte.id) == motDePasse else { throw ErreurMintza("Adresse e-mail ou mot de passe incorrect.") }
@@ -130,6 +136,7 @@ final class MagasinMintza: ObservableObject {
 
     /// Accès explicite aux trois rôles du MVP, sans simuler une authentification distante.
     func ouvrirDemo(_ role: RoleMintza) throws {
+        generationSession += 1
         var copie = etat
         if let compte = copie.profils.first(where: { $0.demonstration && $0.role == role }) {
             copie.session = compte.id
@@ -141,10 +148,89 @@ final class MagasinMintza: ObservableObject {
         try enregistrer(copie)
     }
 
+    func ouvrirSessionDistante(_ session: SessionServeurMintza, informationsGoogle: InformationsProfilGoogle? = nil) throws {
+        guard session.expiration > Date().timeIntervalSince1970,
+              session.profil.idUtilisateur > 0, session.adresseAPI != nil else {
+            throw ErreurMintza("Session invalide. Reconnectez-vous.")
+        }
+        let role: RoleMintza
+        switch session.profil.roleUtilisateur {
+        case "apprenant": role = .apprenant
+        case "commercant": role = .commercant
+        case "administrateur": role = .administrateur
+        default: throw ErreurMintza("Le serveur a renvoyé un rôle inconnu.")
+        }
+        var copie = etat
+        let id: UUID
+        if let index = copie.profils.firstIndex(where: {
+            $0.idServeur == session.profil.idUtilisateur && $0.adresseServeur == session.adresseAPI
+        }) {
+            copie.profils[index].role = role
+            copie.profils[index].email = session.profil.email ?? ""
+            // Compléter uniquement le profil par défaut créé avant la récupération des noms.
+            if copie.profils[index].prenom == "Apprenant" && copie.profils[index].nom.isEmpty,
+               let informationsGoogle, informationsGoogle.prenom != nil || informationsGoogle.nom != nil {
+                copie.profils[index].prenom = informationsGoogle.prenom ?? copie.profils[index].prenom
+                copie.profils[index].nom = informationsGoogle.nom ?? ""
+            }
+            id = copie.profils[index].id
+        } else {
+            var profil = ProfilMintza(prenom: informationsGoogle?.prenom ?? session.profil.pseudo,
+                                      nom: informationsGoogle?.nom ?? "",
+                                      email: session.profil.email ?? "", role: role)
+            profil.idServeur = session.profil.idUtilisateur
+            profil.adresseServeur = session.adresseAPI
+            copie.profils.append(profil)
+            id = profil.id
+        }
+        copie.session = id
+        try CoffreSessionMintza.enregistrer(session)
+        do { try enregistrer(copie) }
+        catch {
+            try? CoffreSessionMintza.effacer()
+            Task { try? await APIConnexion().deconnecter(session) }
+            throw error
+        }
+        generationSession += 1
+    }
+
+    func restaurerSessionDistante() async {
+        guard !verificationSession, profil == nil || profil?.idServeur != nil else { return }
+        verificationSession = true
+        let generation = generationSession
+        defer { verificationSession = false }
+        do {
+            guard var session = try CoffreSessionMintza.lire() else { return }
+            guard session.expiration > Date().timeIntervalSince1970 else {
+                try deconnecter()
+                return
+            }
+            // Le profil JSON local ne suffit jamais à authentifier une session distante.
+            session.profil = try await APIConnexion().verifier(session)
+            guard generation == generationSession else { return }
+            try ouvrirSessionDistante(session)
+        } catch {
+            guard generation == generationSession else { return }
+            if (error as? ErreurConnexionDistante)?.statut == 401 { try? deconnecter() }
+            else if profil?.idServeur != nil {
+                var copie = etat
+                copie.session = nil
+                try? enregistrer(copie)
+            }
+            erreurStockage = "Impossible de vérifier la connexion. \(error.localizedDescription)"
+        }
+    }
+
     func deconnecter() throws {
+        let session = try CoffreSessionMintza.lire()
+        try CoffreSessionMintza.effacer()
+        generationSession += 1
         var copie = etat
         copie.session = nil
         try enregistrer(copie)
+        GIDSignIn.sharedInstance.signOut()
+        // La fermeture locale fonctionne aussi hors ligne ; le jeton serveur expire sous 24 h.
+        if let session { Task { try? await APIConnexion().deconnecter(session) } }
     }
 
     func modifierProfil(prenom: String, nom: String, objectif: Int) throws {

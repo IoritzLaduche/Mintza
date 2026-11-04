@@ -2,3 +2,5 @@
 .env
 configuration/base_de_donnees.locale.php
 *.log
+/vendor/
+configuration/authentification.locale.php

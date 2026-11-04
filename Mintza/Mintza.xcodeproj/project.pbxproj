@@ -6,6 +6,11 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+        AABBCCDD0000000000000001 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = AABBCCDD0000000000000003 /* GoogleSignIn */; };
+        AABBCCDD0000000000000002 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AABBCCDD0000000000000004 /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EC3C81F3308B8F1B0003C989 /* Mintza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mintza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -22,6 +27,8 @@
 		EC3C81F0308B8F1B0003C989 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+                AABBCCDD0000000000000001,
+                AABBCCDD0000000000000002,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -60,6 +67,7 @@
 				EC3C81F5308B8F1B0003C989 /* Mintza */,
 			);
 			name = Mintza;
+			packageProductDependencies = (AABBCCDD0000000000000003, AABBCCDD0000000000000004);
 			productName = Mintza;
 			productReference = EC3C81F3308B8F1B0003C989 /* Mintza.app */;
 			productType = "com.apple.product-type.application";
@@ -80,9 +88,11 @@
 				};
 			};
 			buildConfigurationList = EC3C81EE308B8F1B0003C989 /* Build configuration list for PBXProject "Mintza" */;
-			developmentRegion = en;
+			developmentRegion = fr;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+                fr,
+                eu,
 				en,
 				Base,
 			);
@@ -90,6 +100,7 @@
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EC3C81F4308B8F1B0003C989 /* Products */;
+			packageReferences = (AABBCCDD0000000000000005);
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -260,7 +271,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ISA-NUM1.Mintza";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -294,7 +305,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ISA-NUM1.Mintza";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -305,6 +316,18 @@
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+        AABBCCDD0000000000000005 /* GoogleSignIn-iOS */ = {
+            isa = XCRemoteSwiftPackageReference;
+            repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+            requirement = { kind = upToNextMajorVersion; minimumVersion = 10.1.0; };
+        };
+/* End XCRemoteSwiftPackageReference section */
+/* Begin XCSwiftPackageProductDependency section */
+        AABBCCDD0000000000000003 /* GoogleSignIn */ = {isa = XCSwiftPackageProductDependency; package = AABBCCDD0000000000000005; productName = GoogleSignIn; };
+        AABBCCDD0000000000000004 /* GoogleSignInSwift */ = {isa = XCSwiftPackageProductDependency; package = AABBCCDD0000000000000005; productName = GoogleSignInSwift; };
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCConfigurationList section */
 		EC3C81EE308B8F1B0003C989 /* Build configuration list for PBXProject "Mintza" */ = {

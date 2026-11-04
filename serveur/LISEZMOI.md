@@ -1,6 +1,6 @@
 # API PHP Mintza — première étape
 
-PHP 8.1+ ; aucune bibliothèque ni Composer nécessaires. Les fichiers sont préparés localement : aucun déploiement sur la VM n’a été effectué.
+PHP 8.1+ ; le catalogue fonctionne sans Composer. La connexion Google nécessite les dépendances de `composer.json`. Les fichiers sont préparés localement : aucun déploiement sur la VM n’a été effectué.
 
 ## Organisation
 
@@ -64,7 +64,7 @@ Les identifiants et ordres sont des nombres entiers ; les coordonnées des nombr
 
 **Prototype pédagogique :** les exercices comprennent leur correction et explication pour permettre la correction locale dans l’app. Ce contrat ne convient pas à un quiz dont les réponses doivent rester secrètes ; pour une évaluation réelle, ajouter une correction côté serveur et retirer les réponses des données envoyées.
 
-Ces routes lisent le catalogue public. Aucun accès aux profils, aucune authentification ni route d’écriture n’est implémenté à cette étape.
+Ces routes lisent le catalogue public. La connexion Google dispose de routes séparées (`auth-defi`, `auth-google`, `auth-session`, `auth-deconnexion`) et nécessite HTTPS, MariaDB et Composer. Voir [le guide de configuration Google](../CONNEXION_GOOGLE.md). Les écritures de progression et de favoris restent à implémenter.
 
 ## Transfert sur la VM
 
